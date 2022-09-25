@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "ProPixie";
+  src: url("../fonts/ProcrastinatingPixie-WyVOO.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  font-family: "ProPixie", sans-serif;
+}
+
+.counterBlock{
+  height: 240px;
+  max-width: 1200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  .countup{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
