@@ -1,0 +1,15 @@
+.header-container{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10%;
+    .link-container{
+        flex: 0 0 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            font-weight: 600;
+        }
+    }
+}

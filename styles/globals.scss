@@ -1,12 +1,52 @@
+@import 'animations.scss';
+@import '_our-values.scss';
+@import '_footer.scss';
+@import '_contact-us.scss';
+@import '_way-of-working.scss';
+@import '_first-section.scss';
+@import '_header.scss';
+
+/* color variables */
+$white: #fff;
+$borderRadius: 20px;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ProPixie", sans-serif;
+}
+
 @font-face {
   font-family: "ProPixie";
-  src: url("../fonts/ProcrastinatingPixie-WyVOO.ttf");
+  src: url("../fonts/NunitoRegular-vmABZ.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
-*{
-  font-family: "ProPixie", sans-serif;
+p{
+  line-height: 1.875;
+  font-size: 18px;
+  font-weight: 400;
+  
+}
+
+h2{
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.main-container{
+  section{
+    margin: 8rem auto;
+  }
+}
+
+.coding-text{
+  font-size: 22px;
+  line-height: 20px;
+  color: #54e0c4;
+  margin-bottom: .5rem;
 }
 
 .counterBlock{
@@ -14,11 +54,87 @@
   max-width: 1200px;
   background-size: cover;
   background-position: center;
-  border-radius: 20px;
+  border-radius: $borderRadius;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  margin: 12rem auto !important;
   .countup{
-    font-size: 2rem;
+    font-size: 48px;
     font-weight: 700;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
+}
+
+.testimonial-container{
+  display: flex;
+  max-width: 1200px;
+  margin: 12rem auto !important;
+  #ball1{
+    z-index: -1;
+    position: absolute;
+    left: 10%;
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+  }
+  #ball2{
+    z-index: -1;
+    position: absolute;
+    right: 5%;
+    
+    animation: shrink 6s infinite;
+  }
+  .logo-container{
+    flex: 0 0 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      width: 50%;
+      border-radius: $borderRadius;
+    }
+  }
+  .client-container{
+    flex: 0 0 50%;
+    
+    h2{
+      font-size: 36px;
+      font-weight: 600;
+    }
+    .testimonial-description{
+      margin: 2rem 0;
+    }
+  }
+}
+
+.call-btn{
+  box-shadow: 0px 9px 30px 0 rgb(106 75 196 / 40%);
+  background: radial-gradient(circle farthest-corner at 100% 150%,#d75dbc 10%,#6a4bc4 50%);
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 65px;
+  line-height: 2;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: initial;
+  white-space: nowrap;
+  transition: inherit;
+  min-width: 190px;
+  min-height: 60px;
+  padding: 10px 29.4px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  cursor: pointer;
 }

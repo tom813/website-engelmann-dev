@@ -1,0 +1,28 @@
+export default function FirstSection(){
+    return(
+        <section className="first-section-container">
+            <img src="/sphere-8.png" id="sphere1" />
+            <img src="/sphere-slider-1.png" id="sphere2" />
+            <img src="/sphere-2.png" id="sphere3" />
+            <img src="/sphere-slider-4.png" id="sphere4" />
+            <img src="/sphere-slider-4.png" id="sphere5" />
+            <img src="/sphere-slider-6.png" id="sphere6" />
+            <img src="/sphere-slider-7.png" id="sphere7" />
+            <img src="/sphere-slider-1.png" id="sphere8" />
+
+            <div className="first-section-heading">
+                <div className="coding-text">
+                    {"< get_the_new_erp >"}
+                </div>
+                <h1>Engelmann-dev</h1>
+                <p>
+                We are a team of young, experienced developers who are passionate about their work. Years of 
+                </p>
+                <button className="call-btn">
+                    Kontaktieren Sie uns!
+                </button>
+            </div>
+            <img src="/letter-d.png" id="letter-d" />
+        </section>
+    )
+}
