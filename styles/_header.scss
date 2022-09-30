@@ -3,13 +3,28 @@
     display: flex;
     justify-content: space-between;
     padding: 15px 10%;
+    .logo-container{
+        img{
+            width: 80%;
+        }
+    }
     .link-container{
-        flex: 0 0 40%;
+        flex: 0 0 600px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         p{
             font-weight: 600;
+            cursor: pointer;
         }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .logo-container{
+        text-align: center;
+    }
+    .link-container{
+        display: none !important;
     }
 }

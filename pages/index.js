@@ -6,7 +6,9 @@ import ContactUs from './components/ContactUs';
 import WayOfWorking from './components/WayOfWorking';
 import FirstSection from './components/FirstSection';
 import Header from './components/Header';
-import Head from 'next/head';
+import Info1 from './components/Info1';
+
+import content from '../public/testimonials.json';
 
 export default function Home() {
   return (
@@ -14,7 +16,24 @@ export default function Home() {
       <Header />
       <FirstSection />
       <WayOfWorking />
-      <Testimonials test={"lul"} />
+      <Info1 />
+      <div className="testimonials-wrapper">
+            <img src="/sphere-8.png" id="ball1" />
+            <img src="sphere-10.png" id="ball2" />
+            <img src="/sphere-slider-7.png" id="ball3" />
+        {content.testimonials.map((testimonial) => (
+          <>
+            <Testimonials 
+              companyName={testimonial.company_name}
+              testimonialText={testimonial.testimonial_text}
+              name={testimonial.name}
+              position={testimonial.position}
+              imgUrl={testimonial.img_url}
+              />
+          </>
+        ))}
+      </div>
+      
       <CounterBlock />
       <OurValues />
       <ContactUs />

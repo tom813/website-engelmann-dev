@@ -5,6 +5,7 @@
 @import '_way-of-working.scss';
 @import '_first-section.scss';
 @import '_header.scss';
+@import '_info1.scss';
 
 /* color variables */
 $white: #fff;
@@ -37,6 +38,8 @@ h2{
 }
 
 .main-container{
+  overflow-x: hidden;
+  position: relative;
   section{
     margin: 8rem auto;
   }
@@ -50,7 +53,7 @@ h2{
 }
 
 .counterBlock{
-  height: 240px;
+  min-height: 240px;
   max-width: 1200px;
   background-size: cover;
   background-position: center;
@@ -58,9 +61,10 @@ h2{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 12rem auto !important;
+  margin: 12rem auto;
+  
   .countup{
-    font-size: 48px;
+    font-size: 2.5rem;
     font-weight: 700;
     color: $white;
     display: flex;
@@ -69,15 +73,12 @@ h2{
     align-items: center;
   }
 }
-
-.testimonial-container{
-  display: flex;
-  max-width: 1200px;
-  margin: 12rem auto !important;
+.testimonials-wrapper{
+  position: relative;
   #ball1{
     z-index: -1;
     position: absolute;
-    left: 10%;
+    left: 5%;
     transform: translatey(0px);
     animation: float 6s ease-in-out infinite;
   }
@@ -85,14 +86,31 @@ h2{
     z-index: -1;
     position: absolute;
     right: 5%;
+    top: 30%;
     
     animation: shrink 6s infinite;
   }
+  #ball3{
+    z-index: -1;
+    position: absolute;
+    left: 8%;
+    top: 70%;
+    animation: floatLR 5s infinite;
+  }
+  
+}
+
+.testimonial-container{
+  display: flex;
+  max-width: 1200px;
+  margin: 12rem auto !important;
+  
   .logo-container{
     flex: 0 0 30%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 30px 0;
     img{
       width: 50%;
       border-radius: $borderRadius;
@@ -137,4 +155,17 @@ h2{
   color: white;
   border: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .testimonial-container{
+    flex-direction: column;
+    padding: 0 30px;
+  }
+  .counterBlock{
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px;
+    margin: 0 20px !important;
+  }
 }

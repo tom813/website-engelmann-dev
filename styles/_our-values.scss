@@ -1,39 +1,74 @@
 .value-container{
-    display: flex;
     max-width: 1200px;
     position: relative;
-    gap: 7%;
-    .image-value-container{
-        
-        flex: 0 0 50%;
-        z-index: -10;
-        img{
-            position: absolute;
-            left: 0;
-            top: 0;
-            z-index: -10;
+    gap: 5%;
+    .value-headline-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+        h2{
+            text-align: center;
         }
     }
-    .value-card-container{
-        flex: 0 0 50%;
-        z-index: 10;
-        position: relative;
+    .value-content-container{
+        display: flex;
+        .image-value-container{
         
-        .value-card{
+            flex: 0 0 50%;
+            z-index: -10;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                /* position: absolute;
+                left: 0;
+                top: 0; */
+                z-index: -10;
+                width: 80%;  
+                border-radius: 20px;
+                box-shadow: 0px 9px 30px 0 rgb(106 75 196 / 40%);
+            }
+        }
+        .value-card-container{
+            flex: 0 0 50%;
             z-index: 10;
             position: relative;
-            box-shadow: 0px 15px 38px 0px rgb(0 0 0 / 10%);
-            border-radius: 20px;
-            padding-top: 36px;
-            padding-right: 30px;
-            padding-bottom: 26px;
-            padding-left: 40px;
-            display: flex;
-            gap: 25px;
-            margin: 2rem auto;
+            
+            .value-card{
+                z-index: 10;
+                position: relative;
+                box-shadow: 0px 15px 38px 0px rgb(0 0 0 / 10%);
+                border-radius: 20px;
+                padding-top: 36px;
+                padding-right: 30px;
+                padding-bottom: 26px;
+                padding-left: 40px;
+                display: flex;
+                gap: 25px;
+                margin: 2rem auto;
+            }
+            .value-card:nth-child(2){
+                margin-left: 30px;
+            }
         }
-        .value-card:nth-child(2){
-            margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .image-value-container{
+        display: none;
+
+    }
+    .value-card-container{
+        flex: 0 0 100% !important;
+        gap: 30px;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .value-card{
+            margin: 0 !important;
         }
     }
 }

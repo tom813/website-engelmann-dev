@@ -2,7 +2,7 @@ export default function Header(){
     return(
         <div className="header-container">
             <div className="logo-container">
-                <img src="/logo_dark.png" />
+                <img src="/e-dev.png" />
             </div>
             <div className="link-container">
                 <p>Home +</p>
