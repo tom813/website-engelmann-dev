@@ -3,28 +3,30 @@ export default function Info1(){
         <div className="info1-container">
             <div className="info-card-container">
             <div className="info-card">
-                <h2>APPSCODE.</h2>
+                <h2>CONSULTING</h2>
                 <br />
                 <p>
-                Sales of ICC coins began and the road to the four platform begins.
-The present ctrypto currency market is very competitive and it going to be more within next few month.
+                    Wir beraten Unternehmen bei Ihren Vorhaben zur Digitalisierung und Automatisierung
+                    unter anderem in Fragen der am besten geeigneten Software, der Umsetzung sowie Finanzierung.
+
+                
                 </p>
             </div>
             <div className="info-card">
-                <h2>CRYPTOID</h2>
+                <h2>DEVELOPMENT</h2>
                 <br />
                 <p>
-                Sales of ICC coins began and the road to the four platform begins.
-The present ctrypto currency market is very competitive and it going to be more within next few month.
+                Wir entwickeln für unsere Kunden in der Logistik- und Baubranche individuelle Softwarelösungen 
+                um Kosten zu minimieren, Aufgaben zu vereinfachen und Prozesse zu automatisieren.
                 </p>
             </div>
             <div className="info-description-card">
                 <div className="coding-text">
-                    {"< they_write >"}
+                    {"< our_standouts >"}
                 </div>
                 <h1>
-                    What Media <br />
-                    Write About ICL
+                    What We <br />
+                    Are Doing Best
                 </h1>
                 
             </div>

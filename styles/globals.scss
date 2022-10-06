@@ -6,6 +6,7 @@
 @import '_first-section.scss';
 @import '_header.scss';
 @import '_info1.scss';
+@import '_financial-support.scss';
 
 /* color variables */
 $white: #fff;
@@ -30,6 +31,10 @@ p{
   font-size: 18px;
   font-weight: 400;
   
+}
+
+a{
+  text-decoration: none;
 }
 
 h2{

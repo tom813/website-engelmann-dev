@@ -6,7 +6,7 @@ export default function CounterBlock()  {
     useCountUp({
         ref: "counter1",
         start: 0,
-        end: 12367,
+        end: 147,
         enableScrollSpy: true,
         scrollSpyDelay: 0,
         duration: 0.5
@@ -14,15 +14,16 @@ export default function CounterBlock()  {
       useCountUp({
         ref: "counter2",
         start: 0,
-        end: 1234567,
+        end: 178174,
         enableScrollSpy: true,
         scrollSpyDelay: 0,
         duration: 2
       });
+      
       useCountUp({
         ref: "counter3",
         start: 0,
-        end: 12367,
+        end: 156,
         enableScrollSpy: true,
         scrollSpyDelay: 0,
         duration: 2
@@ -42,7 +43,7 @@ export default function CounterBlock()  {
                 <span id="counter1" />
                 
                 <p>
-                    {"<happy_clients>"}
+                    {"<commits_per_month>"}
                 </p>
             </div>
 
@@ -65,7 +66,7 @@ export default function CounterBlock()  {
                     
                 <span id="counter3" />
                 <p>
-                    {"<great_features>"}
+                    {"< tickets_per_month >"}
                 </p>
             </div>
 

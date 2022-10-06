@@ -1,0 +1,47 @@
+.financial-support-container{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    .financial-support-info-container{
+        flex: 0 0 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        button{
+            box-shadow: 0px 9px 30px 0px rgb(102 75 196 / 40%);
+            border: 1px solid rgb(102 75 196 / 40%);
+            border-radius: 30px;
+            width: 250px;
+            height: 50px;
+            font-weight: 600;
+            font-size: 16px;
+            background: transparent;
+            cursor: pointer;
+        }
+    }
+    .financial-support-image-container{
+        flex: 0 0 20%;
+        img{
+            width: 150%;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .financial-support-container{
+        flex-direction: column;
+        width: 80%;
+        .financial-support-image-container{
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            img{
+                width: 300px;
+            }
+        }
+    }
+}

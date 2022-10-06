@@ -5,10 +5,20 @@ export default function WayOfWorking(){
                 {"< how_we_work >"}
             </div>
             <h2>
-                Get started in
+                Unsere Arbeitsweise
                 <br />
-                a few Minutes with WallApp
+                in 6 einfachen Schritten
             </h2>
+            {/* 
+            1. IST-analyse
+            2. Ziel definition
+            3. 
+            4. Prototyp
+            5. Beginn SoftwareEntwicklung
+            6. Scrum Prozess
+               Weiterentwicklung             
+
+            */}
             <div className="working-phone-container">
                 <div className="working-container">
                     <div className="working-card">
@@ -17,10 +27,10 @@ export default function WayOfWorking(){
                         </div>
                         <div className="working-description">
                             <h3>
-                                Create Payment Address
+                                Ist-Analyse
                             </h3>
                             <p>
-                                Provide your payout wallet address and callback URL to WallApp API
+                                Analyse dessen was funktioniert, worauf man aufbauen kann
                             </p>
                         </div>
                     </div>
@@ -30,10 +40,10 @@ export default function WayOfWorking(){
                         </div>
                         <div className="working-description">
                             <h3>
-                                Create Payment Address
+                                Ziel Definition
                             </h3>
                             <p>
-                                Provide your payout wallet address and callback URL to WallApp API
+                                Festlegung der konkreten Ziele für die Software(entwicklung)
                             </p>
                         </div>
                     </div>
@@ -43,10 +53,10 @@ export default function WayOfWorking(){
                         </div>
                         <div className="working-description">
                             <h3>
-                                Create Payment Address
+                                Prototyp
                             </h3>
                             <p>
-                                Provide your payout wallet address and callback URL to WallApp API
+                                Erstellung eines detaillierten und praxisnahem Prototypen
                             </p>
                         </div>
                     </div>
@@ -61,10 +71,10 @@ export default function WayOfWorking(){
                         </div>
                         <div className="working-description">
                             <h3>
-                                Create Payment Address
+                                Beginn Softwareentwicklung
                             </h3>
                             <p>
-                                Provide your payout wallet address and callback URL to WallApp API
+                                Start der Softwareentwicklung nach dem erstellten Prototypen
                             </p>
                         </div>
                     </div>
@@ -74,10 +84,10 @@ export default function WayOfWorking(){
                         </div>
                         <div className="working-description">
                             <h3>
-                                Create Payment Address
+                                Scrum Prozess
                             </h3>
                             <p>
-                                Provide your payout wallet address and callback URL to WallApp API
+                                wöchentliche Präsentation des aktuellen Standes für den Kunden
                             </p>
                         </div>
                     </div>
@@ -87,10 +97,10 @@ export default function WayOfWorking(){
                         </div>
                         <div className="working-description">
                             <h3>
-                                Create Payment Address
+                                Schulung/Wartung
                             </h3>
                             <p>
-                                Provide your payout wallet address and callback URL to WallApp API
+                                Durchführung von Schulungen oder Wartung
                             </p>
                         </div>
                     </div>

@@ -3,12 +3,15 @@ export default function ContactUs(){
         <section className="contact-us-container">
             <h2>Kontaktieren Sie uns <span>{"</>"} </span></h2>
             <p>
-            Are you looking for trusted experts, who are ready to get insight about your business needs? Here we are with our comprehensive services!
+            Bei Fragen zu konkreten Vorhaben oder zu uns stehen wir selbstverständlich zur Verfügung. Suchen Sie sich einfach einen freien Zeitraum aus.
             </p>
             <div className="btn-group">
+            <a href="https://calendly.com/tom-engelmann/beratungsgesprach" target="_blank">
                 <button className="call-btn">
-                    Beratungsgespräch
+                    Termin vereinbaren
                 </button>
+            </a>
+            
             </div>
         </section>
     )

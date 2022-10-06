@@ -12,15 +12,18 @@ export default function FirstSection(){
 
             <div className="first-section-heading">
                 <div className="coding-text">
-                    {"< get_the_new_erp >"}
+                    {"< software_development >"}
                 </div>
                 <h1>Engelmann-dev</h1>
                 <p>
-                We are a team of young, experienced developers who are passionate about their work. Years of 
+                Wir entwickeln individuelle Software für die Logistik- und Baubranche.
+                
                 </p>
-                <button className="call-btn">
-                    Kontaktieren Sie uns!
-                </button>
+                <a href="https://calendly.com/tom-engelmann/beratungsgesprach" target="_blank">
+                    <button className="call-btn">
+                        Kontakt aufnehmen
+                    </button>
+                </a>
             </div>
             <img src="/letter-d.png" id="letter-d" />
         </section>

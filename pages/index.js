@@ -7,12 +7,16 @@ import WayOfWorking from './components/WayOfWorking';
 import FirstSection from './components/FirstSection';
 import Header from './components/Header';
 import Info1 from './components/Info1';
+import FinancialSupport from './components/FinancialSupport';
 
 import content from '../public/testimonials.json';
 
 export default function Home() {
   return (
     <div className="main-container">
+      <head>
+        <title>Engelmann Software-Development</title>
+      </head>
       <Header />
       <FirstSection />
       <WayOfWorking />
@@ -36,6 +40,7 @@ export default function Home() {
       
       <CounterBlock />
       <OurValues />
+      <FinancialSupport />
       <ContactUs />
       <Footer />
     </div>

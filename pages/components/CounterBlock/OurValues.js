@@ -5,12 +5,12 @@ export default function OurValues(){
         <section className="value-container">
             <div className="value-headline-container">
             <div className="coding-text">
-                {"< how_we_work >"}
+                {"< our_values >"}
             </div>
             <h2>
-                Get started in
+                Was uns
                 <br />
-                a few Minutes with WallApp
+                besonders WICHTIG ist
             </h2>
             </div>
             <div className="value-content-container">
@@ -27,10 +27,10 @@ export default function OurValues(){
                         </div>
                         <div className="value-text-container">
                             <h3>
-                                value headline
+                                Kundenzufriedenheit
                             </h3>
                             <p>
-                                We are a team of young, experienced developers who are passionate about their work
+                                Mit Abstand an oberster Stelle jedes Projekts steht die Zufriedenheit des Kunden.
                             </p>
                         </div>
                     </div>
@@ -41,10 +41,10 @@ export default function OurValues(){
                         </div>
                         <div className="value-text-container">
                             <h3>
-                                value headline
+                                Verständnis
                             </h3>
                             <p>
-                                We are a team of young, experienced developers who are passionate about their work
+                                Es ist uns besonders wichtig genau zu verstehen was unsere Kunden verlagen und was Ihre Ziele sind.
                             </p>
                         </div>
                     </div>
@@ -55,10 +55,10 @@ export default function OurValues(){
                         </div>
                         <div className="value-text-container">
                             <h3>
-                                value headline
+                                Qualität
                             </h3>
                             <p>
-                                We are a team of young, experienced developers who are passionate about their work
+                                Wir entwickeln unsere Software so, dass sie auch von jedem anderem Fachmann erweitert werden kann.
                             </p>
                         </div>
                     </div>

@@ -56,9 +56,17 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .value-content-container{
+        flex-direction: column ;
+        width: 80%;
+        max-width: 600px;
+        min-width: 300px;
+        margin: 0 auto;
+    }
     .image-value-container{
-        display: none;
-
+        img{
+            width: 300px !important;
+        }
     }
     .value-card-container{
         flex: 0 0 100% !important;

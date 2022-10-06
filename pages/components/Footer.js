@@ -4,14 +4,14 @@ export default function Footer(){
             <div className="footer-texts-container">
                 <div className="footer-text-container">
                     <h3>Engelmann-dev</h3>
-                    <p>We are a software house from USA focused on custom software development, e-commerce platforms, ERP class systems development.</p>
+                    <p>Wir entwickeln individuelle Software für die Logistik- und Baubranche.</p>
                 </div>
                 <div className="footer-text-container">
-                    <h3>Contact us</h3>
-                    <p>
+                    <h3>Kontakt aufnehmen</h3>
+                   {/*  <p>
                         <strong>Adress: </strong>
                         27 Division St, New York,  NY 10002, United States of Americ
-                    </p>
+                    </p> */}
                     <p>
                         <strong>Website: </strong>
                         engelmann-dev.com
@@ -26,17 +26,21 @@ export default function Footer(){
                     </p>
                 </div>
                 <div className="footer-text-container">
-                    <h3>usefull links</h3>
+                    <h3>Links</h3>
                     <p>Impressum</p>
                     <p>Datenschutz</p>
-                    <p>About us</p>
-                    <p>Contact</p>
+                    <a href="https://calendly.com/tom-engelmann/beratungsgesprach" target="_blank">
+                        <p>Kontakt</p>
+                    </a>
                 </div>
                 <div className="footer-text-container">
-                    <h3>Get in touch</h3>
-                    <button>
-                        Beratungsgespräch
-                    </button>
+                    <h3>Kontakt</h3>
+                    <a href="https://calendly.com/tom-engelmann/beratungsgesprach" target="_blank">
+                        <button>
+                            Termin vereinbaren
+                        </button>
+                    </a>
+                    
                 </div>
             </div>
             
