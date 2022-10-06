@@ -6,7 +6,7 @@ export default function ContactUs(){
             Bei Fragen zu konkreten Vorhaben oder zu uns stehen wir selbstverständlich zur Verfügung. Suchen Sie sich einfach einen freien Zeitraum aus.
             </p>
             <div className="btn-group">
-            <a href="https://calendly.com/tom-engelmann/beratungsgesprach" target="_blank">
+            <a href="https://calendly.com/tom-engelmann/beratungsgesprach" rel="noreferrer" target="_blank">
                 <button className="call-btn">
                     Termin vereinbaren
                 </button>
