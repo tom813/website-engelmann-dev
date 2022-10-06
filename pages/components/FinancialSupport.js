@@ -13,7 +13,7 @@ export default function FinancialSupport(){
                     Unsere Softwarelösungen sind förderfähig und wir helfen Ihnen dabei die Zuschüsse zu Ihrem Projekt zu beantragen.
                     Die Förderung läuft bis Ende 2023, weiter Informationen finden Sie auf der Website des BMWK.
                 </p>
-                <a target="_blank" href="https://www.bmwk.de/Redaktion/DE/FAQ/Digital-Jetzt/faq-digital-jetzt.html">
+                <a target="_blank" rel="noreferrer" href="https://www.bmwk.de/Redaktion/DE/FAQ/Digital-Jetzt/faq-digital-jetzt.html">
                 <button>
                    Zum BMWK
                 </button>

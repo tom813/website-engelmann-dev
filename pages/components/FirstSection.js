@@ -19,7 +19,7 @@ export default function FirstSection(){
                 Wir entwickeln individuelle Software für die Logistik- und Baubranche.
                 
                 </p>
-                <a href="https://calendly.com/tom-engelmann/beratungsgesprach" target="_blank">
+                <a href="https://calendly.com/tom-engelmann/beratungsgesprach" rel="noreferrer" target="_blank">
                     <button className="call-btn">
                         Kontakt aufnehmen
                     </button>

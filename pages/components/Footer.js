@@ -29,13 +29,13 @@ export default function Footer(){
                     <h3>Links</h3>
                     <p>Impressum</p>
                     <p>Datenschutz</p>
-                    <a href="https://calendly.com/tom-engelmann/beratungsgesprach" target="_blank">
+                    <a href="https://calendly.com/tom-engelmann/beratungsgesprach" rel="noreferrer" target="_blank">
                         <p>Kontakt</p>
                     </a>
                 </div>
                 <div className="footer-text-container">
                     <h3>Kontakt</h3>
-                    <a href="https://calendly.com/tom-engelmann/beratungsgesprach" target="_blank">
+                    <a href="https://calendly.com/tom-engelmann/beratungsgesprach" rel="noreferrer" target="_blank">
                         <button>
                             Termin vereinbaren
                         </button>
