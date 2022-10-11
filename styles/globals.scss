@@ -162,6 +162,13 @@ h2{
   cursor: pointer;
 }
 
+.law-container{
+  padding: 30px 3%;
+  p{
+    margin: 30px 0;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .testimonial-container{
     flex-direction: column;

@@ -27,8 +27,12 @@ export default function Footer(){
                 </div>
                 <div className="footer-text-container">
                     <h3>Links</h3>
-                    <p>Impressum</p>
-                    <p>Datenschutz</p>
+                    <a href="/impressum" rel="noreferrer">
+                        <p>Impressum</p>
+                    </a>
+                    <a href="/datenschutz" rel="noreferrer">
+                        <p>Datenschutz</p>
+                    </a>
                     <a href="https://calendly.com/tom-engelmann/beratungsgesprach" rel="noreferrer" target="_blank">
                         <p>Kontakt</p>
                     </a>

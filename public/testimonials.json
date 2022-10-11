@@ -1,17 +1,26 @@
 {
     "testimonials": [
         {
-            "company_name": "Kunden GmbH",
-            "testimonial_text": "We create e-commerce solutions and slick, eye-pleasing and user-friendly online stores, that let you focus on your business. The most popular form of e-commerce is the online store. It is nothing but a website with a catalog of products and the",
-            "name": "Vorname Nachname",
+            "company_name": "BPI GmbH",
+            "testimonial_text": "Wir freuen uns immer wieder bei anstehenden Projekten auf eine Zusammenarbeit. Die Prozesse sind schnell und die entsprechenden Details werden nach unseren Vorstellungen umgesetzt. Wir können eine Zusammenarbeit nur empfehlen.",
+            "name": "Holger Fritz",
             "position": "Geschäftsführer",
-            "img_url": "/logo.png"
+            "img_url": "/bpi-logo.jpg"
+        }
+    ],
+    "backups": [
+        {
+            "company_name": "Merita GmbH",
+            "testimonial_text": "We create e-commerce solutions and slick, eye-pleasing and user-friendly online stores, that let you focus on your business. The most popular form of e-commerce is the online store. It is nothing but a website with a catalog of products and the",
+            "name": "Stefan Mondorf",
+            "position": "Geschäftsführer",
+            "img_url": "/merita-logo.png"
         },
         {
-            "company_name": "Kunden GmbH",
+            "company_name": "Zac GmbH",
             "testimonial_text": "We create e-commerce solutions and slick, eye-pleasing and user-friendly online stores, that let you focus on your business. The most popular form of e-commerce is the online store. It is nothing but a website with a catalog of products and the",
-            "name": "Vorname Nachname",
-            "position": "Geschäftsführer",
+            "name": "Laura Miladinovic",
+            "position": "Projektleiterin",
             "img_url": "/logo.png"
         }
     ]
