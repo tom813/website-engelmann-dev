@@ -27,10 +27,10 @@ export default function Footer(){
                 </div>
                 <div className="footer-text-container">
                     <h3>Links</h3>
-                    <a href="/impressum" rel="noreferrer">
+                    <a href="https://engelmann-dev.com/impressum" rel="noreferrer">
                         <p>Impressum</p>
                     </a>
-                    <a href="/datenschutz" rel="noreferrer">
+                    <a href="https://engelmann-dev.com/datenschutz" rel="noreferrer">
                         <p>Datenschutz</p>
                     </a>
                     <a href="https://calendly.com/tom-engelmann/beratungsgesprach" rel="noreferrer" target="_blank">
