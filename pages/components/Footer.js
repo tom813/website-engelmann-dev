@@ -8,10 +8,7 @@ export default function Footer(){
                 </div>
                 <div className="footer-text-container">
                     <h3>Kontakt aufnehmen</h3>
-                   {/*  <p>
-                        <strong>Adress: </strong>
-                        27 Division St, New York,  NY 10002, United States of Americ
-                    </p> */}
+                  
                     <p>
                         <strong>Website: </strong>
                         engelmann-dev.com

@@ -1,6 +1,7 @@
 export default function FirstSection(){
     return(
-        <section className="first-section-container">
+        <div id="scroll-point-1">
+            <section className="first-section-container">
             <img src="/sphere-8.png" id="sphere1" />
             <img src="/sphere-slider-1.png" id="sphere2" />
             <img src="/sphere-2.png" id="sphere3" />
@@ -27,5 +28,6 @@ export default function FirstSection(){
             </div>
             <img src="/letter-d.png" id="letter-d" />
         </section>
+        </div>
     )
 }

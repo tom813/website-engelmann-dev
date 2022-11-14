@@ -13,9 +13,13 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        p{
+        a{
             font-weight: 600;
             cursor: pointer;
+            text-decoration: none;
+            color: black;
+            line-height: 1.875;
+            font-size: 18px;
         }
     }
 }

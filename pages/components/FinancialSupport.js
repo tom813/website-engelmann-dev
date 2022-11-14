@@ -1,6 +1,7 @@
 export default function FinancialSupport(){
     return(
         <div className="financial-support-container">
+            <div id="scroll-point-4" />
             <div className="financial-support-info-container">
                 <div className="coding-text">
                     {"< jetzt_digital >"}

@@ -1,6 +1,7 @@
 export default function WayOfWorking(){
     return(
         <section className="way-of-working-container">
+            <div id="scroll-point-2" />
             <div className="coding-text">
                 {"< how_we_work >"}
             </div>
@@ -9,16 +10,7 @@ export default function WayOfWorking(){
                 <br />
                 in 6 einfachen Schritten
             </h2>
-            {/* 
-            1. IST-analyse
-            2. Ziel definition
-            3. 
-            4. Prototyp
-            5. Beginn SoftwareEntwicklung
-            6. Scrum Prozess
-               Weiterentwicklung             
-
-            */}
+            
             <div className="working-phone-container">
                 <div className="working-container">
                     <div className="working-card">

@@ -1,0 +1,17 @@
+.testimonial-block-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2{
+        margin-bottom: 4rem;
+    }
+    .testimonial-block-icon-container{
+        display: flex;
+        width: 95%;
+        max-width: 900px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

@@ -5,12 +5,11 @@ export default function Header(){
                 <img src="/e-dev.png" />
             </div>
             <div className="link-container">
-                <p>Home +</p>
-                <p>Pages +</p>
-                <p>Blog +</p>
-                <p>Portfolio +</p>
-                <p>Shop +</p>
-                <p>Contact +</p>
+                <a href="#scroll-point-1">Home +</a>
+                <a href="#scroll-point-2">Arbeitweise +</a>
+                <a href="#scroll-point-3">Portfolio +</a>
+                <a href="#scroll-point-4">Förderung +</a>
+                <a href="#scroll-point-5">Kontakt +</a>
             </div>
             <div></div>
         </div>

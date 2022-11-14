@@ -7,6 +7,7 @@
 @import '_header.scss';
 @import '_info1.scss';
 @import '_financial-support.scss';
+@import '_testimonial-block.scss';
 
 /* color variables */
 $white: #fff;
@@ -17,6 +18,7 @@ $borderRadius: 20px;
   padding: 0;
   box-sizing: border-box;
   font-family: "ProPixie", sans-serif;
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -45,6 +47,7 @@ h2{
 .main-container{
   overflow-x: hidden;
   position: relative;
+  
   section{
     margin: 8rem auto;
   }
