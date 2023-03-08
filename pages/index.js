@@ -12,6 +12,7 @@ import Info1 from './components/Info1';
 import FinancialSupport from './components/FinancialSupport';
 import TestimonialBlock from './components/TestimonialBlock';
 
+
 import content from '../public/testimonials.json';
 
 export default function Home() {

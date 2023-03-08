@@ -9,14 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.3.0",
+    "fs": "^0.0.1-security",
+    "net": "^1.0.2",
+    "next": "^12.3.0",
     "react": "18.2.0",
     "react-countup": "^6.3.1",
     "react-dom": "18.2.0",
-    "sass": "^1.54.9"
+    "sass": "^1.54.9",
+    "serverless-mysql": "^1.5.4",
+    "tls": "^0.0.1"
   },
   "devDependencies": {
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
   }
 }
