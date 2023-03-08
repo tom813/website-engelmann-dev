@@ -12,13 +12,14 @@ export const GetStaticProps = async () => {
 const Posts = ({posts}) => {
     return(
         <div>
-            {posts && (posts.map((post) => (
-                <div>
+            {/* {posts && (posts.map((post) => (
+                <div key={post}>
                     {post.title}
                     {console.log(post)}
                     dfdfgd
                 </div>
-            )))}
+            )))} */}
+            <h1>this is the blog overview site</h1>
             
         </div>
     )
