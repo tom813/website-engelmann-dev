@@ -22,7 +22,7 @@ const Posts = ({postData}) => {
             <div className="content-wrapper">
                 <h1>Blog Artikel</h1>
                 {postData && postData.map((post) => (
-                    <div className="blog-cart-container">
+                    <div key={post.url} className="blog-cart-container">
                         {post.title}
                         
                     </div>
