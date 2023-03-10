@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 export const getStaticPaths = async () => {
-    const res = await fetch(`${process.env.ENV_HOST}/api/seoposts`);
+    const res = await fetch(`${process.env.ENV_HOST}/api/seoposts/urls`);
     const data = await res.json();
 
     const paths = data.map(post => {
@@ -24,8 +24,8 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
     const url = context.params.post;
-    console.log(context);
-    const res = await fetch('http://localhost:3000/api/seoposts/' + url);
+    /* console.log(context); */
+    const res = await fetch(`${process.env.ENV_HOST}/api/seoposts/` + url);
     const data = await res.json(); 
 
     return {
