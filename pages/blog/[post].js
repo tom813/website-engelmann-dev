@@ -3,7 +3,17 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 export const getStaticPaths = async () => {
-    var res = await fetch(`${process.env.ENV_HOST}/api/seoposts/urls`);
+    var res = await fetch(`${process.env.ENV_HOST}/api/seoposts/urls`,
+                            {
+                                method: "GET",
+                                headers: {
+                                    "User-Agent":
+                                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36", 
+                                    Accept: "application/json; charset=UTF-8",
+                                }
+                            }
+
+    );
     const data = await res.json();
     
 
