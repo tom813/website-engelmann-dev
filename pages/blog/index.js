@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Head from "next/head";
+import Link from "next/link";
 
 export const getStaticProps = async () => {
     
@@ -23,8 +24,12 @@ const Posts = ({postData}) => {
                 <h1>Blog Artikel</h1>
                 {postData && postData.map((post) => (
                     <div key={post.url} className="blog-cart-container">
-                        {post.title}
-                        
+                        <p>
+                            {post.title}
+                        </p>
+                        <Link href={"/blog/" + post.url}>
+                            Zum Artikel
+                        </Link>
                     </div>
                 ))}
             </div>
