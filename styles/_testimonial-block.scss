@@ -14,4 +14,18 @@
         justify-content: space-between;
         align-items: center;
     }
+    .case-study-container{
+        text-align: center;
+        margin: 150px 0 50px 0;
+        h2{
+            margin-bottom: 20px;
+        }
+        p{
+            width: 100%;
+            padding: 10px 0;
+            max-width: 800px;
+            text-align: center;
+            margin: 20px;
+        }
+    }
 }

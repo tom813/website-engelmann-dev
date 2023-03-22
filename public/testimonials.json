@@ -5,7 +5,24 @@
             "testimonial_text": "Wir freuen uns immer wieder bei anstehenden Projekten auf eine Zusammenarbeit. Die Prozesse sind schnell und die entsprechenden Details werden nach unseren Vorstellungen umgesetzt. Wir können eine Zusammenarbeit nur empfehlen.",
             "name": "Holger Fritz",
             "position": "Geschäftsführer",
-            "img_url": "/bpi-logo.jpg"
+            "img_url": "/bpi-logo.jpg",
+            "external_link": "/"
+        },
+        {
+            "company_name":"Zac GmbH",
+            "testimonial_text": "Allein durch die Entwicklung des Prototypen sparen uns eine ganze Arbeitskraft. Wir sind sehr froh über die Zusammenarbeit.",
+            "name": "Laura Miladinovic",
+            "position": "Projektleiterin",
+            "img_url": "/logo-zac.png",
+            "external_link": "https://www.zacgmbh.de"
+        },
+        {
+            "company_name": "heyJura.de",
+            "testimonial_text": "Die Zusammenarbeit war professionell, zielführend und vertrauensvoll. Unsere Platform wurde nach unseren Wünschen entwickelt und wir wurden fachlich sehr gut beraten. Unser Investment hat sich gelohnt und wir können die Zusammenarbeit nur weiterempfehlen.",
+            "name": "J. Adewale",
+            "position": "Gründer heyJura ",
+            "img_url": "/logo-heyjura.png",
+            "external_link": "https://www.heyjura.de"
         }
     ],
     "backups": [
@@ -22,6 +39,7 @@
             "name": "Laura Miladinovic",
             "position": "Projektleiterin",
             "img_url": "/logo.png"
+            
         }
     ]
 }

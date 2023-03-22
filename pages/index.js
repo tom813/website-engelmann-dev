@@ -20,6 +20,7 @@ export default function Home() {
     <div className="main-container">
       <Head>
         <title>Engelmann Software-Development</title>
+        
         <link rel='icon' type='image/x-icon' href='./browser-icon.png' />
       </Head>
       
@@ -40,6 +41,7 @@ export default function Home() {
               name={testimonial.name}
               position={testimonial.position}
               imgUrl={testimonial.img_url}
+              externalLink={testimonial.external_link}
               />
           </>
         ))}

@@ -15,7 +15,7 @@ export default function FinancialSupport(){
                     Die Förderung läuft bis Ende 2023, weiter Informationen finden Sie auf der Website des BMWK.
                 </p>
                 <a target="_blank" rel="noreferrer" href="https://www.bmwk.de/Redaktion/DE/FAQ/Digital-Jetzt/faq-digital-jetzt.html">
-                <button>
+                <button className="secondary-btn">
                    Zum BMWK
                 </button>
                 </a>
