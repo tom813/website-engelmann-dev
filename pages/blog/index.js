@@ -38,3 +38,12 @@ const Posts = ({postData}) => {
 }
 
 export default Posts */
+const test = () => {
+    return(
+        <div>
+        
+        </div>
+    )
+}
+
+export default test;

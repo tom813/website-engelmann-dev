@@ -36,7 +36,7 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
     const url = context.params.post;
-   
+    
     const res = await fetch(`${process.env.ENV_HOST}/api/seoposts/` + url);
     const data = await res.json(); 
 
@@ -67,3 +67,12 @@ const urmom = ({postData}) => {
 }
 
 export default urmom; */
+const test = () => {
+    return(
+        <div>
+        
+        </div>
+    )
+}
+
+export default test;
