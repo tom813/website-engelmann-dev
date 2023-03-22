@@ -21,7 +21,7 @@ export default function TestimonialBlock(){
                         Es wird dargestellt wie das Projekt entstand, welche Herausforderungen wir hatten und wie wir diese lösen.
                         Außerdem erhalten Sie einen Einblick in unsere Arbeitsweise und sehen ein paar Design-Beispiele.
                     </p>
-                <a href="/case-study-zac.pdf" target="_blank">
+                <a href="/case-study-zac.pdf" rel="noreferrer" target="_blank">
                     <button className="secondary-btn">Case-Study ansehen</button>
                 </a>
                 

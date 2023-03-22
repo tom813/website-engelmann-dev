@@ -16,7 +16,7 @@ export default function Testimonials(props){
                 </p>
                 
                 <h2 className="testimonial-headline">
-                    <a href={props.externalLink} target="_blank" style={{textDecoration: "none", color: "black"}}>
+                    <a href={props.externalLink} target="_blank" rel="noreferrer" style={{textDecoration: "none", color: "black"}}>
                         {props.companyName}
                     </a>
                 </h2>
