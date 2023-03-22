@@ -18,7 +18,7 @@ export default function TestimonialBlock(){
                 <h2>Case-Study: ZAC GmbH</h2>
                     <p>
                         Hier können Sie einen beispielhaften Einblick in das Projekt mit der Zac Service und Dienstleistungs GmbH erhalten.
-                        Es wird dargestellt wie das Projekt entstand, welche Herausforderungen wir hatten und wie wir diese lösen.
+                        Es wird dargestellt wie das Projekt entstand, welche Herausforderungen wir hatten und wie wir diese lösten.
                         Außerdem erhalten Sie einen Einblick in unsere Arbeitsweise und sehen ein paar Design-Beispiele.
                     </p>
                 <a href="/case-study-zac.pdf" rel="noreferrer" target="_blank">
