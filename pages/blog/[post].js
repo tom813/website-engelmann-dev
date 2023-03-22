@@ -1,9 +1,9 @@
-import Head from "next/head";
+/* import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 export const getStaticPaths = async () => {
-    var res = await fetch(`${process.env.ENV_HOST}/api/seoposts/urls`,
+    const res = await fetch(`${process.env.ENV_HOST}/api/seoposts/urls`,
                             {
                                 method: "GET",
                                 headers: {
@@ -14,6 +14,7 @@ export const getStaticPaths = async () => {
                             }
 
     );
+    console.log(res)
     const data = await res.json();
     
 
@@ -35,7 +36,7 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
     const url = context.params.post;
-    /* console.log(context); */
+   
     const res = await fetch(`${process.env.ENV_HOST}/api/seoposts/` + url);
     const data = await res.json(); 
 
@@ -65,4 +66,4 @@ const urmom = ({postData}) => {
     )
 }
 
-export default urmom;
+export default urmom; */

@@ -1,4 +1,4 @@
-import excuteQuery from "../../../lib/db";
+/* import excuteQuery from "../../../lib/db";
 
 const handler = async (req, res) => {
     try{
@@ -10,4 +10,4 @@ const handler = async (req, res) => {
     }
 }
 
-export default handler
+export default handler */

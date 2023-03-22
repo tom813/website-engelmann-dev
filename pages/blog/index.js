@@ -1,11 +1,10 @@
-import Header from "../components/Header";
+/* import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Head from "next/head";
 import Link from "next/link";
 
 export const getStaticProps = async () => {
     
-    /* console.log(context); */
     const res = await fetch(`${process.env.ENV_HOST}/api/seoposts/`);
     const data = await res.json(); 
 
@@ -38,4 +37,4 @@ const Posts = ({postData}) => {
     )
 }
 
-export default Posts
+export default Posts */
