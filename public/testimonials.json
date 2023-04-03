@@ -23,6 +23,14 @@
             "position": "Gründer heyJura ",
             "img_url": "/logo-heyjura.png",
             "external_link": "https://www.heyjura.de"
+        },
+        {
+            "company_name": "Merita GmbH",
+            "testimonial_text": "Durch die Zusammenarbeit können wir unsere Vision einer modernen und handhabbaren Produktionsplanung ohne eigene IT-Abteilung in die Tat umsetzen. Schon bald können wir unsere Produktion mit einfachen Mitteln vollkommen digital steuern, optimieren und in Folgeprojekten erweitern. In der Softwareentwicklung empfehle ich die Zusammenarbeit. Mein Vertrauensvorschuss wurde belohnt und ist daher ein echter Geheimtipp. Das Team hat es geschafft, strukturiert und mit aktuellen Programmiertechniken eine komplexe Materie tatsächlich nach den Wünschen des Auftraggebers zu entwickeln. Die Kommunikation war dabei jederzeit freundlich und kompetent. Besondere Fachkenntnisse werden dazu vom Auftraggeber nicht benötigt. Sehr förderlich dabei ist, alles ist Made in Germany.",
+            "name": "Stefan Mondorf",
+            "position": "Geschäftsführer",
+            "img_url": "/merita-logo.png",
+            "external_link": "https://www.heyjura.de"
         }
     ],
     "backups": [
