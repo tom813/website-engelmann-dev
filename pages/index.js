@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className="main-container">
       <Head>
-        <title>Engelmann Software-Development</title>
+        <title>Scalarsoft GmbH</title>
         
         <link rel='icon' type='image/x-icon' href='./browser-icon.png' />
       </Head>

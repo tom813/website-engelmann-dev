@@ -68,11 +68,13 @@ Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zug
 möglich.
 Hinweis zur verantwortlichen Stelle
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:<br/>
-Tom Engelmann<br/>
-Heinrich-Mann-Allee 9<br/>
+Scalarsoft GmbH<br/>
+Hans-Marchwitza-Ring 1<br/>
 14473 Potsdam<br/>
-Telefon: 017697335894<br/>
-E-Mail: tom@engelmann-dev.com<br/>
+Geschäftsführer: Tom Engelmann <br/>
+<img src="/address.png" style={{width: '300px'}} />
+<br/>
+
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über
 die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.)
 entscheidet.

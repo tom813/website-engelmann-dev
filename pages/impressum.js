@@ -4,13 +4,13 @@ export default function Impressum(){
             <h1>Impressum</h1>
 
 <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
-<p>Tom Engelmann<br />
-Heinrich-Mann-Alle 9<br />
+<p>Scalarsoft GmbH i.G.<br />
+Hans-Marchwitza-Ring 1<br />
 14473 Potsdam</p>
 
 <h2>Kontakt</h2>
-<p>Telefon: 017697335894<br />
-E-Mail: tom@engelmann-dev.com</p>
+<p>Geschäftsführer: Tom Engelmann</p>
+<img src="/address.png" style={{width: '300px'}} />
 
 
 <h2>EU-Streitschlichtung</h2>

@@ -15,10 +15,9 @@ export default function FirstSection(){
                 <div className="coding-text">
                     {"< software_development >"}
                 </div>
-                <h1>Engelmann-dev</h1>
+                <h1>Scalarsoft</h1>
                 <p>
                 Wir entwickeln individuelle Software für die Logistik- und Baubranche.
-                
                 </p>
                 <a href="https://calendly.com/tom-engelmann/beratungsgesprach" rel="noreferrer" target="_blank">
                     <button className="call-btn">

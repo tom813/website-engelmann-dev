@@ -4,7 +4,7 @@ export default function Header(){
     return(
         <div className="header-container">
             <div className="logo-container">
-                <img src="/e-dev.png" />
+                <img src="/logo.jpg" style={{width: '300px'}} />
             </div>
             <div className="link-container">
                 <a href="#scroll-point-1">Home +</a>

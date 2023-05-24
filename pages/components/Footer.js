@@ -11,16 +11,9 @@ export default function Footer(){
                   
                     <p>
                         <strong>Website: </strong>
-                        engelmann-dev.com
+                        scalarsoft.de
                     </p>
-                    <p>
-                        <strong>Email: </strong>
-                        tom@engelmann-dev.com
-                    </p>
-                    <p>
-                        <strong>Phone: </strong>
-                        017697457429
-                    </p>
+                    
                 </div>
                 <div className="footer-text-container">
                     <h3>Links</h3>
