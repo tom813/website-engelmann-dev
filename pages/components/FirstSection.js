@@ -1,4 +1,4 @@
-export default function FirstSection(){
+export default function FirstSection(props){
     return(
         <div id="scroll-point-1">
             <section className="first-section-container">
@@ -13,19 +13,22 @@ export default function FirstSection(){
 
             <div className="first-section-heading">
                 <div className="coding-text">
-                    {"< software_development >"}
+                    {"< scalarsoft >"}
                 </div>
-                <h1>Scalarsoft</h1>
+                <h1>{props.headline}</h1>
                 <p>
-                Wir entwickeln individuelle Software für die Logistik- und Baubranche.
+                {props.description}
+                {/* Wir entwickeln Software für die Logistik- und Baubranche. */}
                 </p>
                 <a href="https://calendly.com/tom-engelmann/beratungsgesprach" rel="noreferrer" target="_blank">
                     <button className="call-btn">
-                        Kontakt aufnehmen
+                        {props.c2a}
+                        {/* ScalarOne entdecken */}
                     </button>
                 </a>
             </div>
-            <img src="/letter-d.png" id="letter-d" />
+            {/* <img src="/letter-d.png" id="letter-d" /> */}
+            <img src={props.letter_url} id="letter-d" />
         </section>
         </div>
     )

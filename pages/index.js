@@ -25,7 +25,12 @@ export default function Home() {
       </Head>
       
       <Header />
-      <FirstSection />
+      <FirstSection 
+      headline="Scalarsoft"
+      description="Wir entwickeln Software für die Logistik- und Baubranche."
+      c2a="ScalarOne entdecken"
+      letter_url="/letter-d.png"
+      />
       <WayOfWorking />
       <Info1 />
       <div className="testimonials-wrapper">
