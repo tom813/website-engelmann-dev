@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Footer(){
     return(
         <section className="footer-container">
@@ -17,12 +19,12 @@ export default function Footer(){
                 </div>
                 <div className="footer-text-container">
                     <h3>Links</h3>
-                    <a href="/impressum" rel="noreferrer">
+                    <Link href="/impressum" rel="noreferrer">
                         <p>Impressum</p>
-                    </a>
-                    <a href="/datenschutz" rel="noreferrer">
+                    </Link>
+                    <Link href="/datenschutz" rel="noreferrer">
                         <p>Datenschutz</p>
-                    </a>
+                    </Link>
                     <a href="https://calendly.com/tom-engelmann/beratungsgesprach" rel="noreferrer" target="_blank">
                         <p>Kontakt</p>
                     </a>
