@@ -78,7 +78,7 @@ export default function ChatbotExample(){
                 </div>
                 <div className="chats">
                     {chats.map((chat) => (
-                        <div className="chat-content-container"
+                        <div key={chat.user} className="chat-content-container"
                         style={{
                             alignSelf: chat.user ? "flex-start" : "flex-end",
                             flexDirection: chat.user ? "row" : "row-reverse"
