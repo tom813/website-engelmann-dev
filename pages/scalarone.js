@@ -14,12 +14,20 @@ export default function ScalarOne(){
         <div className="main-container">
             <Header />
             <FirstSection 
-            headline="ScalarOne"
-            description="Das intelligenteste ERP-System"
+            headline="ScalarOne - Das ERP für den modularen Bau"
+            description=""
             c2a="ScalarOne testen"
             letter_url="/letter-a.png"
             />
-            <Info1 />
+            
+            <Info1
+            headline1="CAD kompatibel"
+            description1="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. sed diam nonumy eirmod tempor "
+            headline2="Ki gesteuert"
+            description2="invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,  sanctus est Lorem ipsum dolor sit amet."
+            headline3="Was ScalarOne kann"
+            />
+
            <div className="testimonials-wrapper">
             <div id="scroll-point-3" />
             <img src="/sphere-8.png" id="ball1" />

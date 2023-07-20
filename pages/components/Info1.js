@@ -1,32 +1,35 @@
-export default function Info1(){
+export default function Info1(props){
     return(
         <div className="info1-container">
             <div className="info-card-container">
             <div className="info-card">
-                <h2>CONSULTING</h2>
+                <h2>
+                    {/* CONSULTING */}
+                    {props.headline1}
+                </h2>
                 <br />
                 <p>
-                    Wir beraten Unternehmen bei Ihren Vorhaben zur Digitalisierung und Automatisierung
-                    unter anderem in Fragen der am besten geeigneten Software, der Umsetzung sowie Finanzierung.
-
-                
+                    {props.description1}
                 </p>
             </div>
             <div className="info-card">
-                <h2>DEVELOPMENT</h2>
+                <h2>
+                    
+                    {props.headline2}
+                </h2>
                 <br />
                 <p>
-                Wir entwickeln für unsere Kunden in der Logistik- und Baubranche individuelle Softwarelösungen 
-                um Kosten zu minimieren, Aufgaben zu vereinfachen und Prozesse zu automatisieren.
+                {props.description2}
                 </p>
             </div>
             <div className="info-description-card">
                 <div className="coding-text">
-                    {"< our_standouts >"}
+                    {"< scalarsoft >"}
                 </div>
                 <h1>
-                    What We <br />
-                    Are Doing Best
+                    {/* What We <br />
+                    Are Doing Best */}
+                    {props.headline3}
                 </h1>
                 
             </div>

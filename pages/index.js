@@ -32,7 +32,15 @@ export default function Home() {
       letter_url="/letter-d.png"
       />
       <WayOfWorking />
-      <Info1 />
+      <Info1
+      headline1="CONSULTING"
+      description1="Wir beraten Unternehmen bei Ihren Vorhaben zur Digitalisierung und Automatisierung
+      unter anderem in Fragen der am besten geeigneten Software, der Umsetzung sowie Finanzierung."
+      headline2="DEVELOPMENT"
+      description2="Wir entwickeln für unsere Kunden in der Logistik- und Baubranche individuelle Softwarelösungen 
+      um Kosten zu minimieren, Aufgaben zu vereinfachen und Prozesse zu automatisieren."
+      headline3="What we are doing best"
+      />
       <div className="testimonials-wrapper">
             <div id="scroll-point-3" />
             <img src="/sphere-8.png" id="ball1" />

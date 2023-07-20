@@ -4,7 +4,7 @@ export default function Impressum(){
             <h1>Impressum</h1>
 
 <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
-<p>Scalarsoft GmbH i.G.<br />
+<p>Scalarsoft GmbH<br />
 Hans-Marchwitza-Ring 1<br />
 14473 Potsdam</p>
 
