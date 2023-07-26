@@ -71,6 +71,7 @@ export default function ChatbotExample(props){
     ]
 
     let [chats, setChat] = useState(props.chats[0]);
+    
     return(
         <div className="chatbot-container">
             <h1>Chatbot Beispiele</h1>
