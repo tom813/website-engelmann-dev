@@ -86,7 +86,7 @@ export default function ChatbotExample(props){
                     }
                 </div>
                 <div className="chats">
-                    {chats.map((chat) => (
+                    {props.chats.map((chat) => (
                         <div key={chat.user} className="chat-content-container"
                         style={{
                             alignSelf: chat.user ? "flex-start" : "flex-end",
