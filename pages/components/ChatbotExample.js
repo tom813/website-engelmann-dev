@@ -70,11 +70,7 @@ export default function ChatbotExample(props){
         }
     ]
 
-    console.log("1111")
-    let [chats, setChat] = useState(null);
-    console.log("2222")
-    setChat(props.chats[0]);
-    console.log("3333")
+    let [chats, setChat] = useState(props.chats[0]);
     return(
         <div className="chatbot-container">
             <h1>Chatbot Beispiele</h1>
