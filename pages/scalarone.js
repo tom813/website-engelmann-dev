@@ -55,7 +55,7 @@ export default function ScalarOne(){
         </div>
             
 
-            
+            {console.log("4444")}
             <ChatbotExample 
             chats={content.chat1}
             />
@@ -95,6 +95,8 @@ export default function ScalarOne(){
             <ChatbotExample 
             chats={content.chat4}
             />
+
+            {console.log("5555")}
 
            <FinancialSupport />
            <ContactUs />
