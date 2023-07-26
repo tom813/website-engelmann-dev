@@ -28,7 +28,7 @@ export default function Home() {
       <FirstSection 
       headline="Scalarsoft"
       description="Wir entwickeln Software für die Logistik- und Baubranche."
-      c2a="ScalarOne entdecken"
+      c2a="Termin vereinbaren"
       letter_url="/letter-d.png"
       />
       <WayOfWorking />

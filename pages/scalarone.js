@@ -8,13 +8,16 @@ import content from "../public/advantages.json";
 import FirstSection from "./components/FirstSection";
 import Info1 from "./components/Info1";
 import ChatbotExample from "./components/ChatbotExample";
+import MultiCard from "./components/MultiCard";
+import Timeline from "./components/Timeline";
+
 
 export default function ScalarOne(){
     return(
         <div className="main-container">
             <Header />
             <FirstSection 
-            headline="ScalarOne - Das ERP für den modularen Bau"
+            headline="ScalarOne - Das Revit kompatible KI-ERP für den modularen Bau."
             description=""
             c2a="ScalarOne testen"
             letter_url="/letter-a.png"
@@ -28,25 +31,71 @@ export default function ScalarOne(){
             headline3="Was ScalarOne kann"
             />
 
+          <h2 style={{textAlign: 'center', fontSize: '3rem'}}>
+            Fancy headline
+          </h2>
+          <img src="" />
+          <MultiCard />
+
+          <Timeline />
+
            <div className="testimonials-wrapper">
             <div id="scroll-point-3" />
             <img src="/sphere-8.png" id="ball1" />
             <img src="sphere-10.png" id="ball2" />
             <img src="/sphere-slider-7.png" id="ball3" />
-        {content.testimonials.map((testimonial) => (
-          <>
             <Testimonials 
-              companyName={testimonial.company_name}
-              testimonialText={testimonial.testimonial_text}
-              name={testimonial.name}
-              position={testimonial.position}
-              imgUrl={testimonial.img_url}
-              externalLink={testimonial.external_link}
+              companyName={content.testimonials[0].company_name}
+              testimonialText={content.testimonials[0].testimonial_text}
+              name={content.testimonials[0].name}
+              position={content.testimonials[0].position}
+              imgUrl={content.testimonials[0].img_url}
+              externalLink={content.testimonials[0].external_link}
               />
-          </>
-        ))}
         </div>
-            <ChatbotExample />
+            
+
+            
+            <ChatbotExample 
+            chats={content.chat1}
+            />
+
+            <Testimonials 
+              companyName={content.testimonials[1].company_name}
+              testimonialText={content.testimonials[1].testimonial_text}
+              name={content.testimonials[1].name}
+              position={content.testimonials[1].position}
+              imgUrl={content.testimonials[1].img_url}
+              externalLink={content.testimonials[1].external_link}
+              />
+            <ChatbotExample 
+            chats={content.chat2}
+            />
+
+            <Testimonials 
+              companyName={content.testimonials[2].company_name}
+              testimonialText={content.testimonials[2].testimonial_text}
+              name={content.testimonials[2].name}
+              position={content.testimonials[2].position}
+              imgUrl={content.testimonials[2].img_url}
+              externalLink={content.testimonials[2].external_link}
+              />
+            <ChatbotExample 
+            chats={content.chat3}
+            />
+
+              <Testimonials 
+              companyName={content.testimonials[3].company_name}
+              testimonialText={content.testimonials[3].testimonial_text}
+              name={content.testimonials[3].name}
+              position={content.testimonials[3].position}
+              imgUrl={content.testimonials[3].img_url}
+              externalLink={content.testimonials[3].external_link}
+              />
+            <ChatbotExample 
+            chats={content.chat4}
+            />
+
            <FinancialSupport />
            <ContactUs />
            <Footer />

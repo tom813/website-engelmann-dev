@@ -1,0 +1,30 @@
+.multi-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 1200px;
+    margin: 100px auto;
+    .card{
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 7px 20px 0px rgba(109, 82, 168, 0.4);
+        width: 370px;
+        padding: 20px;
+        border-radius: 10px;
+        img{
+            width: 80px;
+        }
+        .card-content-container{
+            text-align: center;
+            h3{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1.3rem;
+            }
+        }
+    }
+}

@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function ChatbotExample(){
+export default function ChatbotExample(props){
     let chat1 = [
         {
             user: true,
@@ -15,7 +15,7 @@ export default function ChatbotExample(){
         {
             user: false,
             content: "",
-            img: "/Artikel.jpg"
+            img: "/ventil-form2.png"
         }
     ]
     let chat2 = [
@@ -31,9 +31,8 @@ export default function ChatbotExample(){
         },
         {
             user: false,
-            content: `sdfsd <br />
-            sdfsdf`,
-            img: ""
+            content: "",
+            img: "/ventil-table.png"
         }
     ]
     let chat3 = [
@@ -46,6 +45,11 @@ export default function ChatbotExample(){
             user: false,
             content: "In den letzten 3 Monaten wurden 546.829,21€ Umsatz gemacht. Hier ist eine Übersicht.",
             img: ""
+        },
+        {
+            user: false,
+            content: "",
+            img: "/ventil-tabelle-edit.png"
         }
     ]
     let chat4 = [
@@ -58,23 +62,28 @@ export default function ChatbotExample(){
             user: false,
             content: "Hier ist eine Vorschau mit den angepassten Artikeln. Bitte bestätigen Sie die Tabelle.",
             img: ""
+        },
+        {
+            user: false,
+            content: "",
+            img: "/graph.png"
         }
     ]
-    let [chats, setChat] = useState(chat1)
+
+
+    let [chats, setChat] = useState(props.chats[0])
     return(
         <div className="chatbot-container">
             <h1>Chatbot Beispiele</h1>
             <div className="chat-container">
                 <div className="chat-examples">
-                    {/* Wie viele Artikel, die mit der Artikelnummer 123 beginnen sind im System angelegt? */}
-                    
-                    <button className="secondary-btn" onClick={() => setChat(chat1)}>Beispiel 1</button>
-                    {/* Erstelle ein neues Projekt für die Mustermann GmbH */}
-                    <button className="secondary-btn" onClick={() => setChat(chat2)}>Beispiel 2</button>
-                    {/* Wie viel Umsatz wurde in den letzten 3 Monaten im Durchschnitt gemacht? */}
-                    <button className="secondary-btn" onClick={() => setChat(chat3)}>Beispiel 3</button>
-                    {/* Erhöhe den Verkaufspreis für alle Artikel vom Zulieferer Mustermann um 1€ */}
-                    <button className="secondary-btn" onClick={() => setChat(chat4)}>Beispiel 4</button>
+                    {
+                        props.chats.map((chat, index) => (
+                            <>
+                                <button className="secondary-btn" onClick={() => setChat(props.chats[index])}>Beispiel {index + 1}</button>            
+                            </>
+                        ))
+                    }
                 </div>
                 <div className="chats">
                     {chats.map((chat) => (
@@ -93,8 +102,8 @@ export default function ChatbotExample(){
                                     borderTopLeftRadius: chat.user ? "0px" : "10px",
                                     borderTopRightRadius: chat.user ? "10px": "0px",
                                     padding: chat.img ? "0" : null,                                    
-                                    borderRadius: chat.img ? 0: null,
-                                    height: chat.img ? "300px" : null 
+                                    borderRadius: chat.img ? 0: null
+                                    
                         }}
                             >
                                 {chat.img ? (<img src={chat.img} />): (<p>{chat.content}</p>)}                               

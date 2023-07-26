@@ -1,7 +1,7 @@
 export default function TestimonialBlock(){
     return(
         <div className="testimonial-block-container">
-            <h2>Unsere Kunden</h2>
+            <h2>Unsere Partner</h2>
             <div className="testimonial-block-icon-container">
             <a href="http://www.merita-gmbh.de/">
                     <img src="logo-merita.webp" />
@@ -10,9 +10,9 @@ export default function TestimonialBlock(){
                     <img src="logo-zac.png" />
                 </a>
                 
-                <a href="https://bsu-holding.de/">
+                {/* <a href="https://bsu-holding.de/">
                     <img src="logo-bsu.png" />
-                </a>
+                </a> */}
             </div>
             <div className="case-study-container">
                 <h2>Case-Study: ZAC GmbH</h2>
