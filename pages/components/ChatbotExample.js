@@ -1,8 +1,8 @@
-import { useState } from "react"
+import { useState } from "react";
 
 export default function ChatbotExample(props){
     
-    let [chats, setChat] = useState(props.chats[0]);
+    /* let [chats, setChat] = useState(props.chats[0]); */
     
     return(
         <div className="chatbot-container">
