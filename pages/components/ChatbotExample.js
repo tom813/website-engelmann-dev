@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function ChatbotExample(props){
     
-    let [chats, setChat] = useState(props.chats[0]);
+    let [chats, setChat] = useState();
     
     return(
         <div className="chatbot-container">
