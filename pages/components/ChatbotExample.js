@@ -2,10 +2,8 @@ import { useEffect, useState } from "react";
 
 export default function ChatbotExample(props){
     
-    let [chats, setChat] = useState([]);
-    useEffect(() => {
-        setChat(props.chats[0])
-    })
+    let [num, setNum] = useState(0);
+    
     return(
         <div className="chatbot-container">
             <h1>Chatbot Beispiele</h1>
@@ -14,13 +12,13 @@ export default function ChatbotExample(props){
                     {
                         props.chats.map((chat, index) => (
                             <>
-                                <button className="secondary-btn" onClick={() => setChat(props.chats[index])}>Beispiel {index + 1}</button>            
+                                <button className="secondary-btn" onClick={() => setNum(index)}>Beispiel {index + 1}</button>            
                             </>
                         ))
                     }
                 </div>
                 <div className="chats">
-                    {chats.map((chat) => (
+                    {props.chats[num].map((chat) => (
                         <div key={chat.user} className="chat-content-container"
                         style={{
                             alignSelf: chat.user ? "flex-start" : "flex-end",
