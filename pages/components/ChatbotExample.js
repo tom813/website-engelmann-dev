@@ -132,7 +132,6 @@ export default function ChatbotExample(props){
     ]}
 
     let [num, setNum] = useState(0);
-    console.log(c.chat1)
     
     return(
         <div className="chatbot-container">
@@ -140,7 +139,7 @@ export default function ChatbotExample(props){
             <div className="chat-container">
                 <div className="chat-examples">
                     {
-                        c[props.chats].map((chat, index) => (
+                        props.chats && c[props.chats].map((chat, index) => (
                             <>
                                 <button className="secondary-btn" onClick={() => setNum(index)}>Beispiel {index + 1}</button>            
                             </>
@@ -148,7 +147,7 @@ export default function ChatbotExample(props){
                     }
                 </div>
                 <div className="chats">
-                    {c[props.chats][num].map((chat) => (
+                    {props.chats && c[props.chats][num].map((chat) => (
                         <div key={chat.user} className="chat-content-container"
                         style={{
                             alignSelf: chat.user ? "flex-start" : "flex-end",
