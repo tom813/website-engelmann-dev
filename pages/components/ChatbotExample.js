@@ -2,12 +2,12 @@ import { useState } from "react";
 
 export default function ChatbotExample(props){
     
-    /* let [chats, setChat] = useState(props.chats[0]); */
+    let [chats, setChat] = useState(props.chats[0]);
     
     return(
         <div className="chatbot-container">
             <h1>Chatbot Beispiele</h1>
-            {/* <div className="chat-container">
+            <div className="chat-container">
                 <div className="chat-examples">
                     {
                         props.chats.map((chat, index) => (
@@ -18,7 +18,7 @@ export default function ChatbotExample(props){
                     }
                 </div>
                 <div className="chats">
-                    {props.chats.map((chat) => (
+                    {chats.map((chat) => (
                         <div key={chat.user} className="chat-content-container"
                         style={{
                             alignSelf: chat.user ? "flex-start" : "flex-end",
@@ -43,7 +43,7 @@ export default function ChatbotExample(props){
                         </div>
 ))}
                 </div>
-            </div> */}
+            </div>
         </div>
     )
 }

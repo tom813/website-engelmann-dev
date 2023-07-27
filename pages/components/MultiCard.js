@@ -1,49 +1,49 @@
  export default function MultiCard(){
     let cards = [
         {
-            headline: "fancy headline",
-            description: "fancy description",
-            img: "/software-development.png"
+            headline: "Buchhaltung",
+            description: "Kontrolle über die Finanzen",
+            img: "/accounting.png"
         },
         {
-            headline: "fancy headline",
-            description: "fancy description",
-            img: "/software-development.png"
+            headline: "Einkauf",
+            description: "Übersicht über die Wareneingänge",
+            img: "/purchase.png"
         },
         {
-            headline: "fancy headline",
-            description: "fancy description",
-            img: "/software-development.png"
+            headline: "CRM",
+            description: "Kundenmanagement",
+            img: "/crm.png"
         },
         {
-            headline: "fancy headline",
-            description: "fancy description",
-            img: "/software-development.png"
+            headline: "Datenimport",
+            description: "Mühelos Daten aus anderen Systemen importieren",
+            img: "/import.png"
         },
         {
-            headline: "fancy headline",
-            description: "fancy description",
-            img: "/software-development.png"
+            headline: "Produktionsplanung",
+            description: "Steuerung der Produktion",
+            img: "/timeline.png"
         },
         {
-            headline: "fancy headline",
-            description: "fancy description",
-            img: "/software-development.png"
+            headline: "Warenwirtschaft",
+            description: "Schnelle Lagerverwaltung",
+            img: "/warehouse.png"
         },
         {
-            headline: "fancy headline",
-            description: "fancy description",
-            img: "/software-development.png"
+            headline: "Qualitätskontrolle",
+            description: "Mängel frühzeitig beseitigen",
+            img: "/control-system.png"
         },
         {
-            headline: "fancy headline",
-            description: "fancy description",
-            img: "/software-development.png"
+            headline: "Zeiterfassung",
+            description: "Alle Arbeitsstunden erfassen",
+            img: "/tracking.png"
         },
         {
-            headline: "fancy headline",
-            description: "fancy description",
-            img: "/software-development.png"
+            headline: "KI-Chatbot",
+            description: "steuern Sie alle Prozesse über unseren intelligenten Chatbot in ScalarOne",
+            img: "/chatbot.png"
         }
     ]
 
@@ -51,14 +51,15 @@
         <div className="multi-card-container">
             {cards.map((card) => (
                 <div className="card" key={card.headline}>
-                    <img src="/software-development.png" />
+                    <img src={card.img} />
                     <div className="card-content-container">
                         <h3>
-                            Card headline
+                            {card.headline}
                         </h3>
                         <p>
-                            Card description
+                            {card.description}
                         </p>
+                        
                     </div>
                 </div>
             ))}

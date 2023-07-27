@@ -30,6 +30,7 @@ export default function Home() {
       description="Wir entwickeln Software für die Logistik- und Baubranche."
       c2a="Termin vereinbaren"
       letter_url="/letter-d.png"
+      link="https://meetings-eu1.hubspot.com/tom-engelmann/scalarsoft"
       />
       <WayOfWorking />
       <Info1

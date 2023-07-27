@@ -20,7 +20,7 @@ export default function FirstSection(props){
                 {props.description}
                 {/* Wir entwickeln Software für die Logistik- und Baubranche. */}
                 </p>
-                <a href="https://calendly.com/tom-engelmann/beratungsgesprach" rel="noreferrer" target="_blank">
+                <a href={props.link} rel="noreferrer" target="_blank">
                     <button className="call-btn">
                         {props.c2a}
                         {/* ScalarOne entdecken */}
