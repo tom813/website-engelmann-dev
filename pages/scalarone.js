@@ -53,7 +53,7 @@ export default function ScalarOne(){
               externalLink={content.testimonials[0].external_link}
               />
               <ChatbotExample 
-            chats={content.chat1}
+            chats={"chat1"}
             />
         </div>            
 
@@ -68,7 +68,7 @@ export default function ScalarOne(){
               externalLink={content.testimonials[1].external_link}
               />
             <ChatbotExample 
-            chats={content.chat2}
+            chats={"chat2"}
             />
 
             <Testimonials 
@@ -80,7 +80,7 @@ export default function ScalarOne(){
               externalLink={content.testimonials[2].external_link}
               />
             <ChatbotExample 
-            chats={content.chat3}
+            chats={"chat3"}
             />
 
               <Testimonials 
@@ -92,7 +92,7 @@ export default function ScalarOne(){
               externalLink={content.testimonials[3].external_link}
               />
             <ChatbotExample 
-            chats={content.chat4}
+            chats={"chat4"}
             />
 
            <FinancialSupport />
