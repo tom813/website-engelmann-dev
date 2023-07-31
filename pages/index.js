@@ -22,6 +22,8 @@ export default function Home() {
         <title>Scalarsoft GmbH</title>
         
         <link rel='icon' type='image/x-icon' href='./browser-icon.png' />
+
+        
       </Head>
       
       <Header />
@@ -29,7 +31,7 @@ export default function Home() {
       headline="Scalarsoft"
       description="Wir entwickeln Software für die Logistik- und Baubranche."
       c2a="Termin vereinbaren"
-      letter_url="/letter-d.png"
+      letter_url="/scalarsoft.png"
       link="https://meetings-eu1.hubspot.com/tom-engelmann/scalarsoft"
       />
       <WayOfWorking />
