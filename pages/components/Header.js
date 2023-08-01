@@ -9,7 +9,7 @@ export default function Header(){
             </div>
             <div className="link-container">
                 <Link href="/scalarone">ScalarOne +</Link>
-                <a href="/">Home +</a>
+                <Link href="/">Home +</Link>
                 <a href="#scroll-point-2">Arbeitweise +</a>
                 <a href="#scroll-point-3">Portfolio +</a>
                 <a href="#scroll-point-4">Förderung +</a>
