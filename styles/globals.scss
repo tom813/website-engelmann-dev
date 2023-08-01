@@ -13,6 +13,7 @@
 @import '_multicard.scss';
 @import '_timeline.scss';
 @import '_scalarone.scss';
+@import '_thank-you.scss';
 
 /* color variables */
 $white: #fff;
@@ -200,4 +201,11 @@ h2{
     padding: 30px;
     margin: 0 20px !important;
   }
+}
+
+.thank-you-container{
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  max-width: none !important;
 }

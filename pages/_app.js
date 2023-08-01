@@ -1,5 +1,7 @@
 import '../styles/globals.scss';
 import Head from 'next/head';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -16,7 +18,9 @@ function MyApp({ Component, pageProps }) {
   gtag('config', 'G-MGNVVHQ3MH')`}
 </script>
     </Head>
+    <Header />
     <Component {...pageProps} />
+    <Footer />
   </>
     )
 }

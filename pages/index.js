@@ -26,7 +26,6 @@ export default function Home() {
         
       </Head>
       
-      <Header />
       <FirstSection 
       headline="Wir entwickeln Software für die Baubranche"
       description=""
@@ -69,7 +68,6 @@ export default function Home() {
       <OurValues />
       <FinancialSupport />
       <ContactUs />
-      <Footer />
     </div>
   )
 }

@@ -15,7 +15,6 @@ export default function ScalarOne(){
     return(
         
         <div className="main-container">
-            <Header />
             <FirstSection 
             headline="Das Revit kompatible KI-ERP für den modularen Bau."
             description=""
@@ -42,10 +41,10 @@ export default function ScalarOne(){
           </div>
 
           <Info1
-            headline1="CAD kompatibel"
-            description1="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. sed diam nonumy eirmod tempor "
-            headline2="Ki gesteuert"
-            description2="invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,  sanctus est Lorem ipsum dolor sit amet."
+            headline1="CAD-Daten automatisch übertragen"
+            description1="ScalarOne ist ein ERP System, das mit mit allen gängigen CAD-Programmen interagieren kann. Besonders gut ist die Verknüpfung zu Autodesk-Revit. Die Daten können so mühelos per Knopfdruck übertragen werden."
+            headline2="Steuerung durch KI-Chatbot"
+            description2="ScalarOne ist bedienbar durch einen KI basierten Chatbot, der Ihnen das Leben erleichtert. Kein rumsuchen nach den richtigen Formularen und Seiten. Sagen Sie einfach was Sie wollen, unser Chabot macht den Rest."
             headline3="Was ScalarOne kann"
             />
 
@@ -122,7 +121,6 @@ export default function ScalarOne(){
 
            <FinancialSupport />
            <ContactUs />
-           <Footer />
         </div>
     )
 }
