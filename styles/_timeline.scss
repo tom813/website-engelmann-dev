@@ -1,6 +1,9 @@
 .timeline-container{
-    margin: 200px auto;
+    margin: 100px auto;
     display: flex;
     max-width: 1250px;
     gap: 50px;
+    .timeline-element-container{
+        height: fit-content;
+    }
 }

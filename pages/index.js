@@ -28,8 +28,8 @@ export default function Home() {
       
       <Header />
       <FirstSection 
-      headline="Scalarsoft"
-      description="Wir entwickeln Software für die Logistik- und Baubranche."
+      headline="Wir entwickeln Software für die Baubranche"
+      description=""
       c2a="Termin vereinbaren"
       letter_url="/scalarsoft.png"
       link="https://meetings-eu1.hubspot.com/tom-engelmann/scalarsoft"

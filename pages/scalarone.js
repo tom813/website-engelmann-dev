@@ -13,17 +13,35 @@ import Timeline from "./components/Timeline";
 
 export default function ScalarOne(){
     return(
+        
         <div className="main-container">
             <Header />
             <FirstSection 
-            headline="ScalarOne - Das Revit kompatible KI-ERP für den modularen Bau."
+            headline="Das Revit kompatible KI-ERP für den modularen Bau."
             description=""
             c2a="ScalarOne kennenlernen"
-            letter_url="/letter-a.png"
+            letter_url="/scalarone.png"
             link="https://meetings-eu1.hubspot.com/tom-engelmann/scalarsoft"
             />
+        
             
-            <Info1
+          <div className="our-modules-container">
+            
+            <img src="/laptop2.png" id="laptop"/>
+            <h2 >
+              Unsere Module
+            </h2>
+          <MultiCard />
+          </div>
+
+          <div className="revit-workflow">
+            <h2 style={{textAlign: 'center', fontSize: '3rem'}}>
+              Revit Workflow
+            </h2>
+            <Timeline />
+          </div>
+
+          <Info1
             headline1="CAD kompatibel"
             description1="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. sed diam nonumy eirmod tempor "
             headline2="Ki gesteuert"
@@ -31,19 +49,38 @@ export default function ScalarOne(){
             headline3="Was ScalarOne kann"
             />
 
-          <h2 style={{textAlign: 'center', fontSize: '3rem'}}>
-            Unsere Module
-          </h2>
-          <img src="" />
-          <MultiCard />
-
-          <Timeline />
-
            <div className="testimonials-wrapper">
             <div id="scroll-point-3" />
             <img src="/sphere-8.png" id="ball1" />
             <img src="sphere-10.png" id="ball2" />
             <img src="/sphere-slider-7.png" id="ball3" />
+            
+            <ChatbotExample 
+            chats={"chat1"}
+            headline={"Objekte erstellen"}
+            />
+            <ChatbotExample 
+            chats={"chat2"}
+            headline={"Tabellen generieren"}
+            />
+            <ChatbotExample 
+            chats={"chat3"}
+            headline={"Tabellen bearbeiten"}
+            />
+            <ChatbotExample 
+            chats={"chat4"}
+            headline={"Statistiken generieren"}
+            />
+            <a href="https://meetings-eu1.hubspot.com/tom-engelmann/scalarsoft" rel="noreferrer" target="_blank">
+                    <button className="call-btn">
+                        Hier ScalarOne-Chatbots testen
+                        {/* ScalarOne entdecken */}
+                    </button>
+                </a>
+        </div>            
+
+        
+            
             <Testimonials 
               companyName={content.testimonials[0].company_name}
               testimonialText={content.testimonials[0].testimonial_text}
@@ -52,12 +89,6 @@ export default function ScalarOne(){
               imgUrl={content.testimonials[0].img_url}
               externalLink={content.testimonials[0].external_link}
               />
-              <ChatbotExample 
-            chats={"chat1"}
-            />
-        </div>            
-
-            
 
             <Testimonials 
               companyName={content.testimonials[1].company_name}
@@ -67,9 +98,7 @@ export default function ScalarOne(){
               imgUrl={content.testimonials[1].img_url}
               externalLink={content.testimonials[1].external_link}
               />
-            <ChatbotExample 
-            chats={"chat2"}
-            />
+            
 
             <Testimonials 
               companyName={content.testimonials[2].company_name}
@@ -79,9 +108,7 @@ export default function ScalarOne(){
               imgUrl={content.testimonials[2].img_url}
               externalLink={content.testimonials[2].external_link}
               />
-            <ChatbotExample 
-            chats={"chat3"}
-            />
+            
 
               <Testimonials 
               companyName={content.testimonials[3].company_name}
@@ -91,9 +118,7 @@ export default function ScalarOne(){
               imgUrl={content.testimonials[3].img_url}
               externalLink={content.testimonials[3].external_link}
               />
-            <ChatbotExample 
-            chats={"chat4"}
-            />
+            
 
            <FinancialSupport />
            <ContactUs />

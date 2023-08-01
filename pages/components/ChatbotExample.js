@@ -135,7 +135,9 @@ export default function ChatbotExample(props){
     
     return(
         <div className="chatbot-container">
-            <h1>Chatbot Beispiele</h1>
+            <h2>
+                {props.headline}
+            </h2>
             <div className="chat-container">
                 <div className="chat-examples">
                     {

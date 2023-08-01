@@ -12,6 +12,7 @@
 @import '_chatbot-example.scss';
 @import '_multicard.scss';
 @import '_timeline.scss';
+@import '_scalarone.scss';
 
 /* color variables */
 $white: #fff;
@@ -44,14 +45,14 @@ a{
 }
 
 h2{
-  font-size: 36px;
+  font-size: 3rem;
   font-weight: 700;
 }
 
 .main-container{
   overflow-x: hidden;
   position: relative;
-  
+  text-align: center;
   section{
     margin: 8rem auto;
   }
