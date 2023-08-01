@@ -2,9 +2,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-    width: 1200px;
+    max-width: 1250px;
+    width: 100%;
     margin: 100px auto;
-    
+    padding: 20px;
     .card{
         display: flex;
         gap: 30px;
@@ -27,5 +28,14 @@
                 font-size: 1.1rem;
             }
         }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .multi-card-container{
+        flex-wrap: wrap !important;
+    }
+    .card{
+        width: 320px !important;
     }
 }

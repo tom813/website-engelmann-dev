@@ -3,7 +3,17 @@
     display: flex;
     max-width: 1250px;
     gap: 50px;
+    h1{
+        padding-bottom: 50px;
+    }
     .timeline-element-container{
         height: fit-content;
+        
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .timeline-container{
+        flex-wrap: wrap;
     }
 }

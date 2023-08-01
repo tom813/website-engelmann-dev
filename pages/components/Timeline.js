@@ -6,10 +6,17 @@ export default function Timeline(){
 
     return(
         <div className="timeline-container">
+            <div>
+                <h1
+                    style={{color: "#6a4bc4"}}
+                >
+                    Workflow ohne ScalarOne
+                </h1>            
             <VerticalTimeline
             layout="1-column-left"
             className="timeline-element-container"
             >
+                
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     /* contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }} */
@@ -114,10 +121,15 @@ export default function Timeline(){
                     /* icon={<StarIcon />} */
                 />
                 </VerticalTimeline>
+                </div>
 
 
-
-
+                <div>
+                <h1
+                    style={{color: "#54e0c4"}}
+                >
+                    Workflow mit ScalarOne
+                </h1>   
                 <VerticalTimeline
                 layout="1-column-left"
                 lineColor="#6a4bc4"
@@ -128,7 +140,7 @@ export default function Timeline(){
                     /* contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }} */
                     date="Schritt 1"
-                    iconStyle={{ background: '#d75dbc', color: '#fff' }}
+                    iconStyle={{ background: '#54e0c4', color: '#fff' }}
                     /* icon={<WorkIcon />} */
                 >
                     <h3 className="vertical-timeline-element-title">Erstellen des BIM-Modells und der Planungsdaten</h3>
@@ -152,7 +164,7 @@ export default function Timeline(){
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="Schritt 2"
-                    iconStyle={{ background: '#d75dbc', color: '#fff' }}
+                    iconStyle={{ background: '#54e0c4', color: '#fff' }}
                     /* icon={<WorkIcon />} */
                 >
                     <h3 className="vertical-timeline-element-title">Automatische Erstellung der Bauteillisten mittels ScalarOne-Vorlage</h3>
@@ -164,7 +176,7 @@ export default function Timeline(){
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="Schritt 3"
-                    iconStyle={{ background: '#d75dbc', color: '#fff' }}
+                    iconStyle={{ background: '#54e0c4', color: '#fff' }}
                     /* icon={<WorkIcon />} */
                 >
                     <h3 className="vertical-timeline-element-title">Automatisches Übertragen der Mengen und Massen über Revit Plugin</h3>
@@ -176,7 +188,7 @@ export default function Timeline(){
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="Schritt 4"
-                    iconStyle={{ background: '#d75dbc', color: '#fff' }}
+                    iconStyle={{ background: '#54e0c4', color: '#fff' }}
                     /* icon={<SchoolIcon />} */
                 >
                     <h3 className="vertical-timeline-element-title">Automatisches Anlegen von Stücklisten mittels der übertragenen Daten aus Revit Plugin</h3>
@@ -208,10 +220,11 @@ export default function Timeline(){
                     </p>
                 </VerticalTimelineElement> */}
                 <VerticalTimelineElement
-                    iconStyle={{ background: '#d75dbc', color: '#fff' }}
+                    iconStyle={{ background: '#54e0c4', color: '#fff' }}
                     /* icon={<StarIcon />} */
                 />
                 </VerticalTimeline>
+                </div>
         </div>
     )
 }

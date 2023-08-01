@@ -1,14 +1,22 @@
 .our-modules-container{
     margin-bottom: 100px;
     #laptop{
-        width: 600px;
+        max-width: 600px;
+        width: 80%;
         text-align: center;
         margin: 100px;
     }
 }
 .revit-workflow{
     margin: 200px auto;
+    
 }
 .testimonial-wrapper{
-    
+
+}
+
+@media screen and (max-width: 1200px) {
+    .contact-us-container{
+        padding: 0 20px;
+    }
 }

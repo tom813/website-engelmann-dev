@@ -8,8 +8,9 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto !important;
-    margin-top: -100px !important;
+    margin-top: -80px !important;
     text-align: left;
+    
     #sphere1{
         position: absolute;   
         left: 10px;
@@ -84,5 +85,12 @@
     }
     #letter-d{
         max-width: 700px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .first-section-container{
+        flex-wrap: wrap;
     }
 }
