@@ -17,6 +17,10 @@ function MyApp({ Component, pageProps }) {
 
   gtag('config', 'G-MGNVVHQ3MH')`}
 </script>
+
+
+<script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/26098758.js"></script>
+
     </Head>
     <Header />
     <Component {...pageProps} />
