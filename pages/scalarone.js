@@ -9,6 +9,7 @@ import Info1 from "./components/Info1";
 import ChatbotExample from "./components/ChatbotExample";
 import MultiCard from "./components/MultiCard";
 import Timeline from "./components/Timeline";
+import CaseStudy from "./components/CaseStudy";
 
 
 export default function ScalarOne(){
@@ -39,6 +40,14 @@ export default function ScalarOne(){
             </h2>
             <Timeline />
           </div>
+
+          <CaseStudy 
+          title="Case-Study: Revit Bauteilliste automatisch ins ERP übertragen"
+          imgUrl="/ebook-cover1.jpg"
+          text="Müde von komplizierten und zeitraubenden Übertragungen Ihrer Bauteillisten von Autodesk Revit in ERP-Systeme? Entdecken Sie in unserem kostenlosen E-Book, wie ScalarOne diesen Prozess revolutioniert und Ihnen ermöglicht, Daten mit nur einem Klick nahtlos zu übertragen. Investieren Sie Ihre wertvolle Zeit zurück in das Design und nicht in die Dateneingabe. Erfahren Sie, wie wir Ihr Autodesk Revit-Erlebnis transformieren können!"
+          buttonText="Case-Study herunterladen"
+          link="https://ad.scalarsoft.de/64d660a115fb410014ced8b3/"
+          />
 
           <Info1
             headline1="CAD-Daten automatisch übertragen"
