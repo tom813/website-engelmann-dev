@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
+import Head from 'next/head';
 
 export default function HomePage() {
   const router = useRouter();
@@ -11,5 +12,15 @@ export default function HomePage() {
     }, 3000);
   }, []); */
 
-  return <div>Redirecting...</div>;  // Display a message while waiting to redirect
+  return (
+    <>
+        <Head>
+        {/* <!-- Event snippet for Test for KI Case study conversion page --> */}
+<script>
+  {`gtag('event', 'conversion', {'send_to': 'AW-11282831145/ahsMCPqcsOEYEKmuiYQq'});`}
+</script>
+
+        </Head>
+    </>
+  );  // Display a message while waiting to redirect
 }
