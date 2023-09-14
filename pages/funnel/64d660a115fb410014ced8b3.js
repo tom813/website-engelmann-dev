@@ -5,9 +5,11 @@ export default function HomePage() {
   const router = useRouter();
 
   useEffect(() => {
-    // Redirecting to another page
-    router.push('/thank-you');
+    // Set a delay of 2 seconds (2000 milliseconds) before redirecting
+    setTimeout(() => {
+      router.push('/thank-you');
+    }, 3000);
   }, []);
 
-  return null;  // Render nothing
+  return <div>Redirecting...</div>;  // Display a message while waiting to redirect
 }
