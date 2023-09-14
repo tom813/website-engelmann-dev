@@ -18,6 +18,12 @@ function MyApp({ Component, pageProps }) {
   gtag('config', 'G-MGNVVHQ3MH')`}
 </script>
 
+{/* <!-- Event snippet for Test for KI Case study conversion page --> */}
+<script>
+  {`gtag('event', 'conversion', {'send_to': 'AW-11282831145/ahsMCPqcsOEYEKmuiYQq'});`}
+</script>
+
+
 
 <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/26098758.js"></script>
 
