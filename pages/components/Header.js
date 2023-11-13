@@ -8,7 +8,7 @@ export default function Header(){
                 <img src="/scalarsoft.png" style={{width: '200px'}} />
             </div>
             <div className="link-container">
-                <Link href="/scalarone">ScalarOne +</Link>
+                {/* <Link href="/scalarone">ScalarOne +</Link> */}
                 <Link href="/">Home +</Link>
                 <a href="#scroll-point-2">Arbeitweise +</a>
                 <a href="#scroll-point-3">Portfolio +</a>

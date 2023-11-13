@@ -16,7 +16,8 @@ export default function ScalarOne(){
     return(
         
         <div className="main-container">
-            <FirstSection 
+          Keine Seite gefunden!
+            {/* <FirstSection 
             headline="Das Revit kompatible KI-ERP für den modularen Bau."
             description=""
             c2a="ScalarOne kennenlernen"
@@ -82,7 +83,7 @@ export default function ScalarOne(){
             <a href="https://meetings-eu1.hubspot.com/tom-engelmann/scalarsoft" rel="noreferrer" target="_blank">
                     <button className="call-btn">
                         Hier ScalarOne-Chatbots testen
-                        {/* ScalarOne entdecken */}
+                        
                     </button>
                 </a>
         </div>            
@@ -129,7 +130,7 @@ export default function ScalarOne(){
             
 
            <FinancialSupport />
-           <ContactUs />
+           <ContactUs /> */}
         </div>
     )
 }
