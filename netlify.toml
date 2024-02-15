@@ -2,15 +2,4 @@
 package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
-  buildDir = "public"
-  exclude = [
-    '**/components',
-    '**/components/**',
-    '**/funnel',
-    '**/funnel/**',
-    '.next/pages/datenschutz.js',
-    '.next/pages/impressum.js',
-    '.next/pages/scalarone.js',
-    '.next/pages/thank-you.js',
-    
-  ]
+  buildDir = ".next"
