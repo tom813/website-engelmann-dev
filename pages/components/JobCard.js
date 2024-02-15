@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 // components/JobCard.js
 export default function JobCard({ jobData }) {
     const renderSalary = () => {
@@ -28,12 +30,12 @@ export default function JobCard({ jobData }) {
         <p><strong>Gehalt:</strong> {renderSalary()}</p>
         <p><strong>Fähigkeiten:</strong> {jobData.skills}</p>
         <p><strong>Qualifikationen:</strong> {jobData.qualifications}</p>
-        <a
+        <Link
         className="call-btn"
         href="mailto:tom.engelmann@scalarsoft.de?subject=Bewerbung%20als%20Werksstudent(in)%20Marketing%2FSEO" 
         >
             Jetzt Bewerben
-        </a>
+        </Link>
       </div>
     );
   }
