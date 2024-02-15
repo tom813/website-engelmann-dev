@@ -3,3 +3,16 @@ package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
   buildDir = ".next"
+  exclude = [
+    # By file Path
+    './build-dir/path-to/file.html',
+    # By Glob pattern
+    '**/**/child-one.html'
+
+    '**/components',
+    '**/components/**',
+
+    '.next/pages/datenschutz.js',
+    './.next/pages/datenschutz.js',
+    '.next/datenschutz.js',
+  ]
