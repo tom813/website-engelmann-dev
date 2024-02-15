@@ -10,4 +10,7 @@ package = "@netlify/plugin-sitemap"
     '.next/pages/datenschutz.js',
     './.next/pages/datenschutz.js',
     '.next/datenschutz.js',
+
+    '**/impressum',
+    '**/pages/impressum',
   ]
