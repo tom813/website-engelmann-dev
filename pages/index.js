@@ -27,20 +27,18 @@ export default function Home() {
       </Head>
       
       <FirstSection 
-      headline="Wir entwickeln Software für die Baubranche"
-      description=""
-      c2a="Termin vereinbaren"
+      headline="Ihre Adresse bei der Entwicklung & Nutzung von Ki"
+      description="Entdecken Sie mit uns, wie künstliche Intelligenz Ihre Geschäftsprozesse revolutionieren kann."
+      c2a="Entdecken Sie KI-Lösungen"
       letter_url="/scalarsoft.png"
       link="https://meetings-eu1.hubspot.com/tom-engelmann/scalarsoft"
       />
       <WayOfWorking />
       <Info1
-      headline1="CONSULTING"
-      description1="Wir beraten Unternehmen bei Ihren Vorhaben zur Digitalisierung und Automatisierung
-      unter anderem in Fragen der am besten geeigneten Software, der Umsetzung sowie Finanzierung."
-      headline2="DEVELOPMENT"
-      description2="Wir entwickeln für unsere Kunden in der Logistik- und Baubranche individuelle Softwarelösungen 
-      um Kosten zu minimieren, Aufgaben zu vereinfachen und Prozesse zu automatisieren."
+      headline1="Ki-CONSULTING"
+      description1="Wir bieten strategische Beratung, um Unternehmen dabei zu unterstützen, das volle Potenzial künstlicher Intelligenz zu erschließen. Von der Ideenfindung bis zur Implementierung – wir navigieren Sie durch die Komplexität der KI-Technologien und finden die optimale Lösung für Ihre Herausforderungen."
+      headline2="Ki-DEVELOPMENT"
+      description2="Unser Entwicklungsteam spezialisiert sich auf die Erstellung individueller KI-basierter Softwarelösungen. Wir kombinieren modernste Technologien mit branchenspezifischem Know-how, um intelligente Systeme zu entwickeln, die Ihre Effizienz steigern, Kosten reduzieren und Entscheidungsprozesse optimieren."
       headline3="What we are doing best"
       />
       <div className="testimonials-wrapper">
@@ -62,7 +60,7 @@ export default function Home() {
         ))}
       </div>
 
-      <TestimonialBlock />
+      {/*< TestimonialBlock /> */}
       
       <CounterBlock />
       <OurValues />

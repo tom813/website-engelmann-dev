@@ -14,6 +14,7 @@ export default function Header(){
                 <a href="#scroll-point-3">Portfolio +</a>
                 <a href="#scroll-point-4">Förderung +</a>
                 <a href="#scroll-point-5">Kontakt +</a>
+                <Link href="/jobs">Jobs +</Link>
             </div>
             <div></div>
         </div>
