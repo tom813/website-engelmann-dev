@@ -4,17 +4,13 @@ package = "@netlify/plugin-sitemap"
   [plugins.inputs]
   buildDir = "public"
   exclude = [
-    # By file Path
-    './build-dir/path-to/file.html',
-    # By Glob pattern
-    '**/**/child-one.html',
     '**/components',
     '**/components/**',
     '**/funnel',
     '**/funnel/**',
-    './public/pages/datenschutz.js',
-    './public/pages/impressum.js',
-    './public/pages/scalarone.js',
-    './public/pages/thank-you.js',
+    '.next/pages/datenschutz.js',
+    '.next/pages/impressum.js',
+    '.next/pages/scalarone.js',
+    '.next/pages/thank-you.js',
     
   ]
