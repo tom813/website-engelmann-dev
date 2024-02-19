@@ -15,6 +15,10 @@ export default function Jobs() {
     },
     "datePosted": "2024-02-15",
     "validThrough": "2024-06-30",
+    "applicantLocationRequirements": {
+      "@type": "Country",
+      "name": "Germany"
+    },
     "jobLocation": {
       "@type": "Place",
       "address": {
@@ -51,6 +55,10 @@ export default function Jobs() {
     },
     "datePosted": "2024-02-15",
     "validThrough": "2024-06-30",
+    "applicantLocationRequirements": {
+      "@type": "Country",
+      "name": "Germany"
+    },
     "jobLocation": {
       "@type": "Place",
       "address": {
