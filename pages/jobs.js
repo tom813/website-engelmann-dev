@@ -77,6 +77,8 @@ export default function Jobs() {
       <Head>
         <script type="application/ld+json">
           {JSON.stringify(jobPostingMarketingJSON)}
+        </script>
+        <script>
           {JSON.stringify(jobPostingDevJSON)}
         </script>
       </Head>
