@@ -14,7 +14,7 @@ export default function Jobs() {
       "name": "Scalarsoft GmbH"
     },
     "datePosted": "2024-02-15",
-    "validThrough": "2024-04-15",
+    "validThrough": "2024-06-30",
     "jobLocation": {
       "@type": "Place",
       "address": {
@@ -22,9 +22,11 @@ export default function Jobs() {
         "streetAddress": "Hans-Marchwitza-Ring 1",
         "addressLocality": "Potsdam",
         "postalCode": "14473",
-        "addressCountry": "DE"
+        "addressCountry": "DE",
+        "addressRegion": "Potsdam"
       }
     },
+    "jobLocationType": "TELECOMMUTE",
     "baseSalary": {
       "@type": "MonetaryAmount",
       "currency": "EUR",
@@ -48,7 +50,7 @@ export default function Jobs() {
       "name": "Scalarsoft GmbH"
     },
     "datePosted": "2024-02-15",
-    "validThrough": "2024-04-15",
+    "validThrough": "2024-06-30",
     "jobLocation": {
       "@type": "Place",
       "address": {
@@ -56,9 +58,11 @@ export default function Jobs() {
         "streetAddress": "Hans-Marchwitza-Ring 1",
         "addressLocality": "Potsdam",
         "postalCode": "14473",
-        "addressCountry": "DE"
+        "addressCountry": "DE",
+        "addressRegion": "Potsdam"
       }
     },
+    "jobLocationType": "TELECOMMUTE",
     "baseSalary": {
       "@type": "MonetaryAmount",
       "currency": "EUR",
