@@ -5,7 +5,7 @@ export default function Footer(){
         <section className="footer-container">
             <div className="footer-texts-container">
                 <div className="footer-text-container">
-                    <h3>Engelmann-dev</h3>
+                    <h3>Scalarsoft GmbH</h3>
                     <p>Wir entwickeln individuelle Software für die Baubranche.</p>
                 </div>
                 <div className="footer-text-container">
