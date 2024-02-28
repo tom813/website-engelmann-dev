@@ -46,7 +46,7 @@ export default function Jobs() {
   const jobPostingDevJSON = {
     "@context": "https://schema.org/",
     "@type": "JobPosting",
-    "title": "Werksstudent(in) Next.js Entwicklung",
+    "title": "Werksstudent(in) Webentwicklung (Next.js)",
     "employeeType": "OTHER",
     "description": "Die Scalarsoft GmbH in Potsdam sucht einen talentierten Werksstudenten (m/w/d) im Bereich Next.js Entwicklung, der unser Team mit innovativen Webentwicklungsprojekten unterstützt. Deine Aufgaben umfassen die Entwicklung und Optimierung von Webanwendungen mit Next.js, die Verbesserung der Benutzererfahrung und die Implementierung responsiver Designs. Das Gehalt basiert auf deinen Fähigkeiten und Erfahrungen in der Webentwicklung, insbesondere in Next.js, React und modernen Webtechnologien. Diese Position bietet dir die Möglichkeit, in einem dynamischen Umfeld zu arbeiten, deine Fähigkeiten zu erweitern und an spannenden Projekten mitzuarbeiten.",
     "hiringOrganization": {
