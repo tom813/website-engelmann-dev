@@ -25,9 +25,7 @@ export default function Jobs() {
         "@type": "PostalAddress",
         "streetAddress": "Hans-Marchwitza-Ring 1",
         "addressLocality": "Potsdam, Germany",
-        "postalCode": "14473",
-        "addressCountry": "DE",
-        "addressRegion": "Potsdam"
+        "postalCode": "14473"
       }
     },
     "jobLocationType": "TELECOMMUTE",
@@ -64,10 +62,8 @@ export default function Jobs() {
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Hans-Marchwitza-Ring 1",
-        "addressLocality": "Potsdam",
-        "postalCode": "14473",
-        "addressCountry": "DE",
-        "addressRegion": "Potsdam"
+        "addressLocality": "Potsdam, Germany",
+        "postalCode": "14473"
       }
     },
     "jobLocationType": "TELECOMMUTE",
