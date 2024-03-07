@@ -11,7 +11,9 @@ Hans-Marchwitza-Ring 1<br />
 <h2>Kontakt</h2>
 <p>Geschäftsführer: Tom Engelmann</p>
 <img src="/address.png" style={{width: '300px'}} />
-
+<br /><br /><br />
+<h3>Beirat</h3>
+<p>Prof. Dr. Bastian Halecker</p>
 
 <h2>EU-Streitschlichtung</h2>
 <p>Die Europ&auml;ische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/consumers/odr</a>.<br /> Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
