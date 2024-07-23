@@ -1,5 +1,6 @@
 .financial-support-container{
     display: flex;
+    flex-direction: column;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -16,7 +17,7 @@
     .financial-support-image-container{
         flex: 0 0 20%;
         img{
-            width: 150%;
+            width: 80%;
         }
     }
 }
